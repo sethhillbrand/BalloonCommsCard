@@ -1,0 +1,702 @@
+EESchema Schematic File Version 4
+LIBS:CommsCardv2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Logic_74xx:74LS595 U6
+U 1 1 5A7B0A9F
+P 7150 3050
+F 0 "U6" H 7300 3750 50  0000 C CNN
+F 1 "74LV595" H 7400 3650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7150 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv595a.pdf" H 7150 3050 50  0001 C CNN
+F 4 "SN74LV595APWR" H 7150 3050 50  0001 C CNN "mpn"
+	1    7150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2650 8450 2650
+Wire Wire Line
+	9450 3050 9550 3050
+Wire Wire Line
+	9550 3150 9450 3150
+$Comp
+L CommsCard:74LVC2G86 U4
+U 1 1 5A7A4A0A
+P 6250 2650
+F 0 "U4" H 6225 2917 50  0000 C CNN
+F 1 "74LVC2G86" H 6225 2826 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 6250 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g86.pdf" H 6250 2650 50  0001 C CNN
+F 4 "SN74LVC2G86DCTR" H 6250 2650 50  0001 C CNN "mpn"
+	1    6250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5A7A4E0B
+P 7150 3900
+F 0 "#PWR01" H 7150 3650 50  0001 C CNN
+F 1 "GND" H 7155 3727 50  0000 C CNN
+F 2 "" H 7150 3900 50  0001 C CNN
+F 3 "" H 7150 3900 50  0001 C CNN
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5A7A4E27
+P 8950 3900
+F 0 "#PWR02" H 8950 3650 50  0001 C CNN
+F 1 "GND" H 8955 3727 50  0000 C CNN
+F 2 "" H 8950 3900 50  0001 C CNN
+F 3 "" H 8950 3900 50  0001 C CNN
+	1    8950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3900 8950 3850
+Wire Wire Line
+	7150 3900 7150 3850
+NoConn ~ 7650 2650
+NoConn ~ 7650 2750
+NoConn ~ 7650 2850
+NoConn ~ 7650 2950
+NoConn ~ 7650 3050
+NoConn ~ 7650 3150
+NoConn ~ 9450 2650
+NoConn ~ 9450 2750
+NoConn ~ 9450 2850
+NoConn ~ 9450 2950
+NoConn ~ 9450 3350
+NoConn ~ 9450 3550
+$Comp
+L CommsCard:74LVC2G86 U4
+U 2 1 5A7A5077
+P 9850 3100
+F 0 "U4" H 9825 3367 50  0000 C CNN
+F 1 "74LVC2G86" H 9825 3276 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 9850 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g86.pdf" H 9850 3100 50  0001 C CNN
+F 4 "SN74LVC2G86DCTR" H 9850 3100 50  0001 C CNN "mpn"
+	2    9850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CommsCard:74LVC2G86 U5
+U 3 1 5A7A513D
+P 9350 5650
+F 0 "U5" H 9428 5696 50  0000 L CNN
+F 1 "74LVC2G86" H 9428 5605 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 9350 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9350 5650 50  0001 C CNN
+F 4 "SN74LVC2G86DCTR" H 9350 5650 50  0001 C CNN "mpn"
+	3    9350 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2600 5650 2600
+Text HLabel 5650 2600 0    50   Input ~ 0
+DATA
+Wire Wire Line
+	6500 2650 6600 2650
+$Comp
+L Logic_74xx:74LS595 U7
+U 1 1 5A7A5871
+P 8950 3050
+F 0 "U7" H 9100 3750 50  0000 C CNN
+F 1 "74LV595" H 9200 3650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8950 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv595a.pdf" H 8950 3050 50  0001 C CNN
+F 4 "SN74LV595APWR" H 8950 3050 50  0001 C CNN "mpn"
+	1    8950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3900 6600 3900
+Wire Wire Line
+	6600 3900 6600 3250
+Wire Wire Line
+	6600 3250 6650 3250
+Connection ~ 7150 3900
+Wire Wire Line
+	8950 3900 8400 3900
+Wire Wire Line
+	8400 3900 8400 3250
+Wire Wire Line
+	8400 3250 8450 3250
+Connection ~ 8950 3900
+Wire Wire Line
+	7150 2350 7150 2250
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5A7A63A7
+P 7150 2250
+F 0 "#PWR03" H 7150 2100 50  0001 C CNN
+F 1 "+3V3" H 7165 2423 50  0000 C CNN
+F 2 "" H 7150 2250 50  0001 C CNN
+F 3 "" H 7150 2250 50  0001 C CNN
+	1    7150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 2350 8950 2250
+$Comp
+L power:+3V3 #PWR04
+U 1 1 5A7A63C9
+P 8950 2250
+F 0 "#PWR04" H 8950 2100 50  0001 C CNN
+F 1 "+3V3" H 8965 2423 50  0000 C CNN
+F 2 "" H 8950 2250 50  0001 C CNN
+F 3 "" H 8950 2250 50  0001 C CNN
+	1    8950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2650 6600 2200
+Wire Wire Line
+	6600 2200 6700 2200
+Connection ~ 6600 2650
+Wire Wire Line
+	6600 2650 6650 2650
+Text HLabel 6700 2200 2    50   Output ~ 0
+RNRZ-L
+Wire Wire Line
+	10150 4200 5300 4200
+Wire Wire Line
+	5300 4200 5300 2700
+Wire Wire Line
+	5300 2700 5950 2700
+$Comp
+L power:+3V3 #PWR05
+U 1 1 5A7A6D06
+P 5850 2950
+F 0 "#PWR05" H 5850 2800 50  0001 C CNN
+F 1 "+3V3" H 5865 3123 50  0000 C CNN
+F 2 "" H 5850 2950 50  0001 C CNN
+F 3 "" H 5850 2950 50  0001 C CNN
+	1    5850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR06
+U 1 1 5A7A7242
+P 7850 2950
+F 0 "#PWR06" H 7850 2800 50  0001 C CNN
+F 1 "+3V3" H 7865 3123 50  0000 C CNN
+F 2 "" H 7850 2950 50  0001 C CNN
+F 3 "" H 7850 2950 50  0001 C CNN
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2950 8450 2950
+Wire Wire Line
+	5850 2950 6650 2950
+Wire Notes Line rgb(194, 0, 0)
+	10400 4550 5150 4550
+Wire Notes Line width 10 style dotted rgb(194, 0, 0)
+	5150 4550 5150 1950
+Wire Notes Line rgb(194, 0, 0)
+	5150 1950 10400 1950
+Wire Notes Line rgb(194, 0, 0)
+	10400 1950 10400 4550
+Text Notes 5150 1950 0    50   ~ 0
+RNRZ-L
+NoConn ~ 7650 3350
+NoConn ~ 9450 3250
+Wire Wire Line
+	10100 3100 10150 3100
+Wire Wire Line
+	10150 3100 10150 4200
+Wire Wire Line
+	7650 3550 7750 3550
+Wire Wire Line
+	7750 2650 7750 3550
+NoConn ~ 7650 3250
+$Comp
+L CommsCard:74LVC2G86 U4
+U 3 1 5A7AD935
+P 8300 5650
+F 0 "U4" H 8378 5696 50  0000 L CNN
+F 1 "74LVC2G86" H 8378 5605 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8300 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g86.pdf" H 8300 5650 50  0001 C CNN
+F 4 "SN74LVC2G86DCTR" H 8300 5650 50  0001 C CNN "mpn"
+	3    8300 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xx:74LS86 U1
+U 1 1 5A7ADAF8
+P 1550 4550
+F 0 "U1" H 1550 4875 50  0000 C CNN
+F 1 "SN74LV86" H 1550 4784 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1550 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv86a-ep.pdf" H 1550 4550 50  0001 C CNN
+F 4 "SN74LV86ATPWREP" H 1550 4550 50  0001 C CNN "mpn"
+	1    1550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xx:74LS86 U1
+U 2 1 5A7ADC31
+P 1550 5150
+F 0 "U1" H 1550 5475 50  0000 C CNN
+F 1 "SN74LV86" H 1550 5384 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1550 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv86a-ep.pdf" H 1550 5150 50  0001 C CNN
+F 4 "SN74LV86ATPWREP" H 1550 5150 50  0001 C CNN "mpn"
+	2    1550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xx:74LS86 U1
+U 3 1 5A7ADC99
+P 3150 5650
+F 0 "U1" H 3150 5975 50  0000 C CNN
+F 1 "SN74LV86" H 3150 5884 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3150 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv86a-ep.pdf" H 3150 5650 50  0001 C CNN
+F 4 "SN74LV86ATPWREP" H 3150 5650 50  0001 C CNN "mpn"
+	3    3150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xx:74LV14 U2
+U 1 1 5A7ADF20
+P 2250 5550
+F 0 "U2" H 2250 5867 50  0000 C CNN
+F 1 "74LV14" H 2250 5776 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2250 5550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 2250 5550 50  0001 C CNN
+F 4 "SN74LV14APWR" H 2250 5550 50  0001 C CNN "mpn"
+	1    2250 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5A7AE61F
+P 2650 5350
+F 0 "C1" H 2765 5396 50  0000 L CNN
+F 1 "DNP" H 2765 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2688 5200 50  0001 C CNN
+F 3 "~" H 2650 5350 50  0001 C CNN
+	1    2650 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5550 2650 5550
+Wire Wire Line
+	2650 5550 2650 5500
+Connection ~ 2650 5550
+Wire Wire Line
+	2650 5200 2650 5150
+Wire Wire Line
+	2650 5150 1950 5150
+Wire Wire Line
+	1950 5550 1950 5150
+Connection ~ 1950 5150
+Wire Wire Line
+	1950 5150 1850 5150
+$Comp
+L power:GND #PWR07
+U 1 1 5A7B0922
+P 1200 5350
+F 0 "#PWR07" H 1200 5100 50  0001 C CNN
+F 1 "GND" H 1205 5177 50  0000 C CNN
+F 2 "" H 1200 5350 50  0001 C CNN
+F 3 "" H 1200 5350 50  0001 C CNN
+	1    1200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5350 1200 5250
+Wire Wire Line
+	1200 5250 1250 5250
+Wire Wire Line
+	1100 5050 1250 5050
+Wire Wire Line
+	1100 4650 1250 4650
+$Comp
+L CommsCard:74LVC1G80 U3
+U 1 1 5A7B4C81
+P 3900 4650
+F 0 "U3" H 3900 4967 50  0000 C CNN
+F 1 "74LVC1G80" H 3900 4876 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3900 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3900 4650 50  0001 C CNN
+F 4 "SN74LVC1G79DCKR" H 3900 4650 50  0001 C CNN "mpn"
+	1    3900 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5650 3600 4750
+Wire Wire Line
+	3600 4750 3650 4750
+Wire Wire Line
+	3650 4550 1850 4550
+$Comp
+L Logic_74xx:74LV14 U2
+U 2 1 5A7BEEBC
+P 2150 2850
+F 0 "U2" H 2150 3167 50  0000 C CNN
+F 1 "74LV14" H 2150 3076 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2150 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 2150 2850 50  0001 C CNN
+F 4 "SN74LV14APWR" H 2150 2850 50  0001 C CNN "mpn"
+	2    2150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2850 2750 2850
+$Comp
+L Logic_74xx:74LV14 U2
+U 3 1 5A7C0A07
+P 3400 2850
+F 0 "U2" H 3400 3167 50  0000 C CNN
+F 1 "74LV14" H 3400 3076 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3400 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 3400 2850 50  0001 C CNN
+F 4 "SN74LV14APWR" H 3400 2850 50  0001 C CNN "mpn"
+	3    3400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xx:74LS86 U1
+U 5 1 5A7C2776
+P 4950 5700
+F 0 "U1" H 5180 5746 50  0000 L CNN
+F 1 "SN74LV86" H 5180 5655 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4950 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv86a-ep.pdf" H 4950 5700 50  0001 C CNN
+F 4 "SN74LV86ATPWREP" H 4950 5700 50  0001 C CNN "mpn"
+	5    4950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xx:74LV14 U2
+U 7 1 5A7C2856
+P 6250 5700
+F 0 "U2" H 6480 5746 50  0000 L CNN
+F 1 "74LV14" H 6480 5655 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6250 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 6250 5700 50  0001 C CNN
+F 4 "SN74LV14APWR" H 6250 5700 50  0001 C CNN "mpn"
+	7    6250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CommsCard:74LVC1G80 U3
+U 2 1 5A7C605D
+P 7250 5650
+F 0 "U3" H 7330 5671 50  0000 L CNN
+F 1 "74LVC1G80" H 7330 5580 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 7250 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7250 5650 50  0001 C CNN
+F 4 "SN74LVC1G79DCKR" H 7250 5650 50  0001 C CNN "mpn"
+	2    7250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5A7C9996
+P 7250 6300
+F 0 "#PWR010" H 7250 6050 50  0001 C CNN
+F 1 "GND" H 7255 6127 50  0000 C CNN
+F 2 "" H 7250 6300 50  0001 C CNN
+F 3 "" H 7250 6300 50  0001 C CNN
+	1    7250 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 6300 7250 6250
+Wire Wire Line
+	7250 6250 6850 6250
+Wire Wire Line
+	4950 6250 4950 6200
+Connection ~ 7250 6250
+Wire Wire Line
+	7250 6250 7250 5950
+Wire Wire Line
+	6250 6200 6250 6250
+Connection ~ 6250 6250
+Wire Wire Line
+	7250 6250 7900 6250
+Wire Wire Line
+	8300 6250 8300 6000
+Wire Wire Line
+	9350 6000 9350 6250
+Wire Wire Line
+	9350 6250 8950 6250
+Connection ~ 8300 6250
+$Comp
+L power:+3V3 #PWR09
+U 1 1 5A7CE773
+P 7250 5050
+F 0 "#PWR09" H 7250 4900 50  0001 C CNN
+F 1 "+3V3" H 7265 5223 50  0000 C CNN
+F 2 "" H 7250 5050 50  0001 C CNN
+F 3 "" H 7250 5050 50  0001 C CNN
+	1    7250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5400 7250 5100
+Wire Wire Line
+	7250 5100 6850 5100
+Wire Wire Line
+	4950 5100 4950 5200
+Connection ~ 7250 5100
+Wire Wire Line
+	7250 5100 7250 5050
+Wire Wire Line
+	6250 5200 6250 5100
+Connection ~ 6250 5100
+Wire Wire Line
+	6250 5100 5700 5100
+Wire Wire Line
+	7250 5100 7900 5100
+Wire Wire Line
+	8300 5100 8300 5300
+Wire Wire Line
+	8300 5100 8950 5100
+Wire Wire Line
+	9350 5100 9350 5300
+Connection ~ 8300 5100
+Wire Wire Line
+	4950 6250 4400 6250
+Wire Wire Line
+	4400 6250 4400 5850
+Connection ~ 4950 6250
+Wire Wire Line
+	4400 5550 4400 5100
+Wire Wire Line
+	4400 5100 4950 5100
+Connection ~ 4950 5100
+Wire Wire Line
+	5700 5850 5700 6250
+Wire Wire Line
+	4950 6250 5700 6250
+Connection ~ 5700 6250
+Wire Wire Line
+	5700 6250 6250 6250
+Wire Wire Line
+	5700 5550 5700 5100
+Connection ~ 5700 5100
+Wire Wire Line
+	5700 5100 4950 5100
+Wire Wire Line
+	6850 5550 6850 5100
+Connection ~ 6850 5100
+Wire Wire Line
+	6850 5100 6250 5100
+Wire Wire Line
+	6850 5850 6850 6250
+Connection ~ 6850 6250
+Wire Wire Line
+	6850 6250 6250 6250
+Wire Wire Line
+	7900 5550 7900 5100
+Connection ~ 7900 5100
+Wire Wire Line
+	7900 5100 8300 5100
+Wire Wire Line
+	7900 5850 7900 6250
+Connection ~ 7900 6250
+Wire Wire Line
+	7900 6250 8300 6250
+Wire Wire Line
+	8950 5850 8950 6250
+Connection ~ 8950 6250
+Wire Wire Line
+	8950 6250 8300 6250
+Wire Wire Line
+	8950 5550 8950 5100
+Connection ~ 8950 5100
+Wire Wire Line
+	8950 5100 9350 5100
+Wire Wire Line
+	1250 4450 1100 4450
+Text HLabel 1100 4450 0    50   Input ~ 0
+DATA
+Text HLabel 1100 4650 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	4150 4550 4300 4550
+Text HLabel 4300 4550 2    50   Output ~ 0
+BIPHASE
+Wire Wire Line
+	3450 5650 3600 5650
+Wire Wire Line
+	1700 2850 1850 2850
+Text HLabel 1700 2850 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	3700 2850 3800 2850
+Text Label 3800 2850 0    50   ~ 0
+DELAY_CLK
+Text Label 1100 5050 2    50   ~ 0
+DELAY_CLK
+Text Label 6650 2850 2    50   ~ 0
+DELAY_CLK
+Text Label 6650 3150 2    50   ~ 0
+DELAY_CLK
+Text Label 8450 3150 2    50   ~ 0
+DELAY_CLK
+Text Label 8450 2850 2    50   ~ 0
+DELAY_CLK
+Text Label 2850 5750 2    50   ~ 0
+DELAY_CLK
+Wire Wire Line
+	2650 5550 2850 5550
+Text Notes 1200 6400 0    50   ~ 0
+NOTE: Set C1 to 1nF for 70ns pulse width, 200pF for 30ns, open 10ns
+Text Notes 1650 2300 0    50   ~ 0
+This delay is between 2ns and 46ns over -40 to 125C.\nAdditional delay with optional capacitor
+$Comp
+L Device:C C2
+U 1 1 5A81E8DA
+P 2750 3050
+F 0 "C2" H 2865 3096 50  0000 L CNN
+F 1 "DNP" H 2865 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2788 2900 50  0001 C CNN
+F 3 "~" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5A81E9A7
+P 2750 3250
+F 0 "#PWR08" H 2750 3000 50  0001 C CNN
+F 1 "GND" H 2755 3077 50  0000 C CNN
+F 2 "" H 2750 3250 50  0001 C CNN
+F 3 "" H 2750 3250 50  0001 C CNN
+	1    2750 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2900 2750 2850
+Connection ~ 2750 2850
+Wire Wire Line
+	2750 2850 3100 2850
+Wire Wire Line
+	2750 3250 2750 3200
+$Comp
+L Device:C C3
+U 1 1 5A82356F
+P 4400 5700
+F 0 "C3" H 4515 5746 50  0000 L CNN
+F 1 "0u1F" H 4515 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 5550 50  0001 C CNN
+F 3 "~" H 4400 5700 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 4400 5700 50  0001 C CNN "mpn"
+	1    4400 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5A823695
+P 5700 5700
+F 0 "C4" H 5815 5746 50  0000 L CNN
+F 1 "0u1F" H 5815 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5738 5550 50  0001 C CNN
+F 3 "~" H 5700 5700 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 5700 5700 50  0001 C CNN "mpn"
+	1    5700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5A823707
+P 6850 5700
+F 0 "C5" H 6965 5746 50  0000 L CNN
+F 1 "0u1F" H 6965 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 5550 50  0001 C CNN
+F 3 "~" H 6850 5700 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 6850 5700 50  0001 C CNN "mpn"
+	1    6850 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5A823767
+P 7900 5700
+F 0 "C6" H 8015 5746 50  0000 L CNN
+F 1 "0u1F" H 8015 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 5550 50  0001 C CNN
+F 3 "~" H 7900 5700 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 7900 5700 50  0001 C CNN "mpn"
+	1    7900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5A8237CD
+P 8950 5700
+F 0 "C7" H 9065 5746 50  0000 L CNN
+F 1 "0u1F" H 9065 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 5550 50  0001 C CNN
+F 3 "~" H 8950 5700 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 8950 5700 50  0001 C CNN "mpn"
+	1    8950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5A83180D
+P 10050 5700
+F 0 "C?" H 10165 5746 50  0000 L CNN
+F 1 "0u1F" H 10165 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10088 5550 50  0001 C CNN
+F 3 "~" H 10050 5700 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 10050 5700 50  0001 C CNN "mpn"
+	1    10050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5A831881
+P 10500 5700
+F 0 "C?" H 10615 5746 50  0000 L CNN
+F 1 "0u1F" H 10615 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10538 5550 50  0001 C CNN
+F 3 "~" H 10500 5700 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 10500 5700 50  0001 C CNN "mpn"
+	1    10500 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 6250 10050 6250
+Wire Wire Line
+	10050 6250 10050 5850
+Connection ~ 9350 6250
+Wire Wire Line
+	10050 6250 10500 6250
+Wire Wire Line
+	10500 6250 10500 5850
+Connection ~ 10050 6250
+Wire Wire Line
+	10500 5550 10500 5100
+Wire Wire Line
+	10500 5100 10050 5100
+Connection ~ 9350 5100
+Wire Wire Line
+	10050 5550 10050 5100
+Connection ~ 10050 5100
+Wire Wire Line
+	10050 5100 9350 5100
+$EndSCHEMATC

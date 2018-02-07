@@ -42,4 +42,10 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP STWD100xxWY
+D Watchdog timer circuit
+K WD Watchdog
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf
+$ENDCMP
+#
 #End Doc Library

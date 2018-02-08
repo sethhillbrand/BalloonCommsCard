@@ -20,20 +20,10 @@ U 1 1 5A7B0FE8
 P 4800 4250
 F 0 "U?" H 5191 4296 50  0000 L CNN
 F 1 "STWD100xxWY" H 5191 4205 50  0000 L CNN
-F 2 "" H 4850 4450 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 4850 4450 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 4950 4550 50  0001 C CNN
+F 4 "STWD100PYW83F" H 4800 4250 50  0001 C CNN "mpn"
 	1    4800 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CommsCard:STWD100xxWY U?
-U 1 1 5A7B1006
-P 4750 2850
-F 0 "U?" H 5141 2896 50  0000 L CNN
-F 1 "STWD100xxWY" H 5141 2805 50  0000 L CNN
-F 2 "" H 4800 3050 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 4900 3150 50  0001 C CNN
-	1    4750 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -133,7 +123,7 @@ U 1 1 5A7B77EA
 P 4150 2500
 F 0 "TP?" H 4208 2620 50  0000 L CNN
 F 1 "Test_Point" H 4208 2529 50  0000 L CNN
-F 2 "" H 4350 2500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4350 2500 50  0001 C CNN
 F 3 "~" H 4350 2500 50  0001 C CNN
 	1    4150 2500
 	1    0    0    -1  
@@ -173,8 +163,9 @@ U 1 1 5A7B810E
 P 3450 4150
 F 0 "R?" H 3380 4104 50  0000 R CNN
 F 1 "R" H 3380 4195 50  0000 R CNN
-F 2 "" V 3380 4150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 3380 4150 50  0001 C CNN
 F 3 "~" H 3450 4150 50  0001 C CNN
+F 4 "~" H 3450 4150 50  0001 C CNN "mpn"
 	1    3450 4150
 	-1   0    0    1   
 $EndComp
@@ -203,7 +194,7 @@ U 1 1 5A7B88A0
 P 3400 2750
 F 0 "R?" H 3330 2704 50  0000 R CNN
 F 1 "R" H 3330 2795 50  0000 R CNN
-F 2 "" V 3330 2750 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 3330 2750 50  0001 C CNN
 F 3 "~" H 3400 2750 50  0001 C CNN
 	1    3400 2750
 	-1   0    0    1   
@@ -212,17 +203,6 @@ Wire Wire Line
 	3400 2600 3400 2550
 Text HLabel 3400 2950 0    50   Input ~ 0
 FC1_PWREN
-$Comp
-L Connector_Specialized:Test_Point TP?
-U 1 1 5A7B9083
-P 4200 3900
-F 0 "TP?" H 4258 4020 50  0000 L CNN
-F 1 "Test_Point" H 4258 3929 50  0000 L CNN
-F 2 "" H 4400 3900 50  0001 C CNN
-F 3 "~" H 4400 3900 50  0001 C CNN
-	1    4200 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5A7B9113
@@ -293,4 +273,155 @@ Wire Wire Line
 Wire Wire Line
 	9200 4050 9200 4000
 Connection ~ 9100 4050
+$Comp
+L CommsCard:74LVC2G00 U?
+U 3 1 5A7BD6BD
+P 5800 5650
+F 0 "U?" H 5775 5917 50  0000 C CNN
+F 1 "74LVC2G00" H 5775 5826 50  0000 C CNN
+F 2 "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm" H 5800 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g00.pdf" H 5800 5650 50  0001 C CNN
+F 4 "SN74LVC2G00YZPR" H 5800 5650 50  0001 C CNN "mpn"
+	3    5800 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5A7BD74A
+P 5800 5050
+F 0 "#PWR?" H 5800 4900 50  0001 C CNN
+F 1 "+3V3" H 5815 5223 50  0000 C CNN
+F 2 "" H 5800 5050 50  0001 C CNN
+F 3 "" H 5800 5050 50  0001 C CNN
+	1    5800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A7BD781
+P 5800 6250
+F 0 "#PWR?" H 5800 6000 50  0001 C CNN
+F 1 "GND" H 5805 6077 50  0000 C CNN
+F 2 "" H 5800 6250 50  0001 C CNN
+F 3 "" H 5800 6250 50  0001 C CNN
+	1    5800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CommsCard:STWD100xxWY U?
+U 1 1 5A7BE12B
+P 4750 2850
+F 0 "U?" H 5141 2896 50  0000 L CNN
+F 1 "STWD100xxWY" H 5141 2805 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 4800 3050 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 4900 3150 50  0001 C CNN
+F 4 "STWD100PYW83F" H 4750 2850 50  0001 C CNN "mpn"
+	1    4750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP?
+U 1 1 5A7BE190
+P 4200 3900
+F 0 "TP?" H 4258 4020 50  0000 L CNN
+F 1 "Test_Point" H 4258 3929 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4400 3900 50  0001 C CNN
+F 3 "~" H 4400 3900 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5500 6200 5050
+Wire Wire Line
+	6200 5800 6200 6200
+$Comp
+L Device:C C?
+U 1 1 5A7C0E16
+P 6200 5650
+F 0 "C?" H 6315 5696 50  0000 L CNN
+F 1 "0u1F" H 6315 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 5500 50  0001 C CNN
+F 3 "~" H 6200 5650 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 6200 5650 50  0001 C CNN "mpn"
+	1    6200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5500 6650 5050
+Wire Wire Line
+	6650 5800 6650 6200
+$Comp
+L Device:C C?
+U 1 1 5A7C13BB
+P 6650 5650
+F 0 "C?" H 6765 5696 50  0000 L CNN
+F 1 "0u1F" H 6765 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 5500 50  0001 C CNN
+F 3 "~" H 6650 5650 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 6650 5650 50  0001 C CNN "mpn"
+	1    6650 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5500 7100 5050
+Wire Wire Line
+	7100 5800 7100 6200
+$Comp
+L Device:C C?
+U 1 1 5A7C1A22
+P 7100 5650
+F 0 "C?" H 7215 5696 50  0000 L CNN
+F 1 "0u1F" H 7215 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7138 5500 50  0001 C CNN
+F 3 "~" H 7100 5650 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 7100 5650 50  0001 C CNN "mpn"
+	1    7100 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5500 7550 5050
+Wire Wire Line
+	7550 5800 7550 6200
+$Comp
+L Device:C C?
+U 1 1 5A7C1A2B
+P 7550 5650
+F 0 "C?" H 7665 5696 50  0000 L CNN
+F 1 "0u1F" H 7665 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 5500 50  0001 C CNN
+F 3 "~" H 7550 5650 50  0001 C CNN
+F 4 "CL10B104KA8NFNC" H 7550 5650 50  0001 C CNN "mpn"
+	1    7550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6250 5800 6200
+Wire Wire Line
+	5800 6200 6200 6200
+Connection ~ 5800 6200
+Wire Wire Line
+	5800 6200 5800 6000
+Connection ~ 6200 6200
+Wire Wire Line
+	6200 6200 6650 6200
+Connection ~ 6650 6200
+Wire Wire Line
+	6650 6200 7100 6200
+Connection ~ 7100 6200
+Wire Wire Line
+	7100 6200 7550 6200
+Wire Wire Line
+	5800 5300 5800 5050
+Wire Wire Line
+	5800 5050 6200 5050
+Connection ~ 5800 5050
+Connection ~ 6200 5050
+Wire Wire Line
+	6200 5050 6650 5050
+Connection ~ 6650 5050
+Wire Wire Line
+	6650 5050 7100 5050
+Connection ~ 7100 5050
+Wire Wire Line
+	7100 5050 7550 5050
 $EndSCHEMATC

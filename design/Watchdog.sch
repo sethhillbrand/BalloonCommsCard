@@ -17,23 +17,280 @@ $EndDescr
 $Comp
 L CommsCard:STWD100xxWY U?
 U 1 1 5A7B0FE8
-P 5900 4050
-F 0 "U?" H 6291 4096 50  0000 L CNN
-F 1 "STWD100xxWY" H 6291 4005 50  0000 L CNN
-F 2 "" H 5950 4250 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 6050 4350 50  0001 C CNN
-	1    5900 4050
+P 4800 4250
+F 0 "U?" H 5191 4296 50  0000 L CNN
+F 1 "STWD100xxWY" H 5191 4205 50  0000 L CNN
+F 2 "" H 4850 4450 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 4950 4550 50  0001 C CNN
+	1    4800 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CommsCard:STWD100xxWY U?
 U 1 1 5A7B1006
-P 5850 2700
-F 0 "U?" H 6241 2746 50  0000 L CNN
-F 1 "STWD100xxWY" H 6241 2655 50  0000 L CNN
-F 2 "" H 5900 2900 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 6000 3000 50  0001 C CNN
-	1    5850 2700
+P 4750 2850
+F 0 "U?" H 5141 2896 50  0000 L CNN
+F 1 "STWD100xxWY" H 5141 2805 50  0000 L CNN
+F 2 "" H 4800 3050 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 4900 3150 50  0001 C CNN
+	1    4750 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L CommsCard:74LVC2G00 U?
+U 2 1 5A7B6676
+P 6700 4200
+F 0 "U?" H 6675 4467 50  0000 C CNN
+F 1 "74LVC2G00" H 6675 4376 50  0000 C CNN
+F 2 "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm" H 6700 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g00.pdf" H 6700 4200 50  0001 C CNN
+F 4 "SN74LVC2G00YZPR" H 6700 4200 50  0001 C CNN "mpn"
+	2    6700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4150 6350 4150
+Wire Wire Line
+	7400 2900 7300 2900
+Wire Wire Line
+	6950 4200 7150 4200
+Wire Wire Line
+	7150 4200 7150 4450
+Wire Wire Line
+	7150 4450 6200 4450
+Wire Wire Line
+	6200 4450 6200 2950
+Wire Wire Line
+	6200 2950 6400 2950
+$Comp
+L Device:R R?
+U 1 1 5A7B69B9
+P 7150 2900
+F 0 "R?" V 6943 2900 50  0000 C CNN
+F 1 "R" V 7034 2900 50  0000 C CNN
+F 2 "" V 7080 2900 50  0001 C CNN
+F 3 "~" H 7150 2900 50  0001 C CNN
+	1    7150 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 2900 6950 2900
+Wire Wire Line
+	6350 3600 7400 3600
+Wire Wire Line
+	6350 3600 6350 4150
+Wire Wire Line
+	7400 2900 7400 3600
+Wire Wire Line
+	6400 4250 5150 4250
+Wire Wire Line
+	6400 2850 5100 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5A7B7021
+P 4750 3250
+F 0 "#PWR?" H 4750 3000 50  0001 C CNN
+F 1 "GND" H 4755 3077 50  0000 C CNN
+F 2 "" H 4750 3250 50  0001 C CNN
+F 3 "" H 4750 3250 50  0001 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3250 4750 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5A7B7145
+P 4800 4650
+F 0 "#PWR?" H 4800 4400 50  0001 C CNN
+F 1 "GND" H 4805 4477 50  0000 C CNN
+F 2 "" H 4800 4650 50  0001 C CNN
+F 3 "" H 4800 4650 50  0001 C CNN
+	1    4800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4650 4800 4600
+$Comp
+L CommsCard:74LVC2G00 U?
+U 2 1 5A7B74F5
+P 6700 2900
+F 0 "U?" H 6675 3167 50  0000 C CNN
+F 1 "74LVC2G00" H 6675 3076 50  0000 C CNN
+F 2 "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm" H 6700 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g00.pdf" H 6700 2900 50  0001 C CNN
+F 4 "SN74LVC2G00YZPR" H 6700 2900 50  0001 C CNN "mpn"
+	2    6700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2750 4150 2750
+Text HLabel 4050 2750 0    50   Input ~ 0
+FC1_WD
+$Comp
+L Connector_Specialized:Test_Point TP?
+U 1 1 5A7B77EA
+P 4150 2500
+F 0 "TP?" H 4208 2620 50  0000 L CNN
+F 1 "Test_Point" H 4208 2529 50  0000 L CNN
+F 2 "" H 4350 2500 50  0001 C CNN
+F 3 "~" H 4350 2500 50  0001 C CNN
+	1    4150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2750 4150 2500
+Connection ~ 4150 2750
+Wire Wire Line
+	4150 2750 4050 2750
+Wire Wire Line
+	4450 4150 4200 4150
+Text HLabel 4100 4150 0    50   Input ~ 0
+FC2_WD
+Wire Wire Line
+	4200 4150 4200 3900
+Connection ~ 4200 4150
+Wire Wire Line
+	4200 4150 4100 4150
+Wire Wire Line
+	3450 4350 3450 4300
+Wire Wire Line
+	3450 4350 4450 4350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5A7B80F0
+P 3450 3950
+F 0 "#PWR?" H 3450 3800 50  0001 C CNN
+F 1 "+3V3" H 3465 4123 50  0000 C CNN
+F 2 "" H 3450 3950 50  0001 C CNN
+F 3 "" H 3450 3950 50  0001 C CNN
+	1    3450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5A7B810E
+P 3450 4150
+F 0 "R?" H 3380 4104 50  0000 R CNN
+F 1 "R" H 3380 4195 50  0000 R CNN
+F 2 "" V 3380 4150 50  0001 C CNN
+F 3 "~" H 3450 4150 50  0001 C CNN
+	1    3450 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 4000 3450 3950
+Text HLabel 3450 4350 0    50   Input ~ 0
+FC2_PWREN
+Wire Wire Line
+	3400 2950 3400 2900
+Wire Wire Line
+	3400 2950 4400 2950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5A7B889A
+P 3400 2550
+F 0 "#PWR?" H 3400 2400 50  0001 C CNN
+F 1 "+3V3" H 3415 2723 50  0000 C CNN
+F 2 "" H 3400 2550 50  0001 C CNN
+F 3 "" H 3400 2550 50  0001 C CNN
+	1    3400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5A7B88A0
+P 3400 2750
+F 0 "R?" H 3330 2704 50  0000 R CNN
+F 1 "R" H 3330 2795 50  0000 R CNN
+F 2 "" V 3330 2750 50  0001 C CNN
+F 3 "~" H 3400 2750 50  0001 C CNN
+	1    3400 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 2600 3400 2550
+Text HLabel 3400 2950 0    50   Input ~ 0
+FC1_PWREN
+$Comp
+L Connector_Specialized:Test_Point TP?
+U 1 1 5A7B9083
+P 4200 3900
+F 0 "TP?" H 4258 4020 50  0000 L CNN
+F 1 "Test_Point" H 4258 3929 50  0000 L CNN
+F 2 "" H 4400 3900 50  0001 C CNN
+F 3 "~" H 4400 3900 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5A7B9113
+P 4800 3900
+F 0 "#PWR?" H 4800 3750 50  0001 C CNN
+F 1 "+3V3" H 4815 4073 50  0000 C CNN
+F 2 "" H 4800 3900 50  0001 C CNN
+F 3 "" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5A7B9130
+P 4750 2500
+F 0 "#PWR?" H 4750 2350 50  0001 C CNN
+F 1 "+3V3" H 4765 2673 50  0000 C CNN
+F 2 "" H 4750 2500 50  0001 C CNN
+F 3 "" H 4750 2500 50  0001 C CNN
+	1    4750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CommsCard:74AHC157RGY U?
+U 1 1 5A7BA9FB
+P 9100 3000
+F 0 "U?" H 9200 3900 50  0000 C CNN
+F 1 "74AHC157" H 9350 3800 50  0000 C CNN
+F 2 "" H 9100 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ahc157.pdf" H 9100 3000 50  0001 C CNN
+F 4 "SN74AHC157RGYR" H 9100 3000 50  0001 C CNN "mpn"
+	1    9100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3600 7400 3600
+Connection ~ 7400 3600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5A7BE16C
+P 9100 2100
+F 0 "#PWR?" H 9100 1950 50  0001 C CNN
+F 1 "+3V3" H 9115 2273 50  0000 C CNN
+F 2 "" H 9100 2100 50  0001 C CNN
+F 3 "" H 9100 2100 50  0001 C CNN
+	1    9100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A7BE18B
+P 9100 4100
+F 0 "#PWR?" H 9100 3850 50  0001 C CNN
+F 1 "GND" H 9105 3927 50  0000 C CNN
+F 2 "" H 9100 4100 50  0001 C CNN
+F 3 "" H 9100 4100 50  0001 C CNN
+	1    9100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4100 9100 4050
+Wire Wire Line
+	9100 4050 9000 4050
+Wire Wire Line
+	9000 4050 9000 4000
+Wire Wire Line
+	9100 4050 9200 4050
+Wire Wire Line
+	9200 4050 9200 4000
+Connection ~ 9100 4050
 $EndSCHEMATC

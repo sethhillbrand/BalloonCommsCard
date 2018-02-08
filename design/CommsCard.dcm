@@ -1,8 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74AHC157RGY
+D Quad 2 to 1 line Multiplexer
+K TTL MUX MUX2
+F http://www.ti.com/lit/gpn/sn74LS157
+$ENDCMP
+#
 $CMP 74AUC1G80
 D Single D Flip-Flop Iverted Output, Low-Voltage CMOS
 K Single D Flip-Flop CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC2G00
+D Dual NAND Gate, Low-Voltage CMOS
+K Dual Gate NAND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -21,6 +33,12 @@ $ENDCMP
 $CMP 74LVC1G80
 D Single D Flip-Flop Iverted Output, Low-Voltage CMOS
 K Single D Flip-Flop CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC2G00
+D Dual NAND Gate, Low-Voltage CMOS
+K Dual Gate NAND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -172,7 +172,7 @@ $EndComp
 Wire Wire Line
 	3450 4000 3450 3950
 Text HLabel 3450 4350 0    50   Input ~ 0
-FC2_PWREN
+~FC2_PWREN
 Wire Wire Line
 	3400 2950 3400 2900
 Wire Wire Line
@@ -202,7 +202,7 @@ $EndComp
 Wire Wire Line
 	3400 2600 3400 2550
 Text HLabel 3400 2950 0    50   Input ~ 0
-FC1_PWREN
+~FC1_PWREN
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5A7B9113
@@ -424,4 +424,39 @@ Wire Wire Line
 Connection ~ 7100 5050
 Wire Wire Line
 	7100 5050 7550 5050
+Text HLabel 8600 2400 0    50   Input ~ 0
+FC1_COMM1_TX
+Text HLabel 8600 2500 0    50   Input ~ 0
+FC2_COMM1_TX
+Text HLabel 8600 2800 0    50   Input ~ 0
+FC2_COMM2_TX
+Text HLabel 8600 2700 0    50   Input ~ 0
+FC1_COMM2_TX
+Text HLabel 8600 3000 0    50   Input ~ 0
+FC1_HIGHRATE
+Text HLabel 8600 3100 0    50   Input ~ 0
+FC2_HIGHRATE
+Text HLabel 8600 3300 0    50   Input ~ 0
+FC1_LOS
+Text HLabel 8600 3400 0    50   Input ~ 0
+FC2_LOS
+Text HLabel 9600 2400 2    50   Output ~ 0
+COMM1_TX
+Text HLabel 9600 2700 2    50   Output ~ 0
+COMM2_TX
+Text HLabel 9600 3000 2    50   Output ~ 0
+HIGHRATE
+Text HLabel 9600 3300 2    50   Output ~ 0
+LOS
+Wire Wire Line
+	8600 3700 8600 4050
+Wire Wire Line
+	8600 4050 9000 4050
+Connection ~ 9000 4050
+Wire Wire Line
+	7400 3600 7400 4000
+Wire Wire Line
+	7400 4000 7650 4000
+Text HLabel 7650 4000 2    50   Output ~ 0
+IN_CHARGE
 $EndSCHEMATC

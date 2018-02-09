@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -737,14 +737,6 @@ F 3 "" H 8300 850 50  0001 C CNN
 	1    8300 850 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 1750 6250 1750
-Wire Wire Line
-	6200 1850 6250 1850
-Text HLabel 6250 1750 2    50   Output ~ 0
-LOS_CLK
-Text HLabel 6250 1850 2    50   Output ~ 0
-LOS_DATA
 NoConn ~ 6200 1950
 NoConn ~ 6200 2050
 NoConn ~ 6200 2150
@@ -1018,4 +1010,46 @@ Wire Wire Line
 Connection ~ 3050 1700
 Wire Wire Line
 	3050 1700 3050 2000
+$Sheet
+S 8100 1550 950  550 
+U 5A7DC371
+F0 "LOSComms" 50
+F1 "LOSComms.sch" 50
+F2 "DATA" I L 8100 1850 50 
+F3 "RNRZ-L" O R 9050 1750 50 
+F4 "CLK" I L 8100 1750 50 
+F5 "BIPHASE" O R 9050 1850 50 
+$EndSheet
+Wire Wire Line
+	6200 1750 8100 1750
+Wire Wire Line
+	6200 1850 8100 1850
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5A806EE1
+P 9650 1800
+F 0 "J?" H 9730 1842 50  0000 L CNN
+F 1 "Conn_01x03" H 9730 1751 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9650 1800 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 9650 1800 50  0001 C CNN
+F 4 "M20-9990345" H 9650 1800 50  0001 C CNN "mpn"
+	1    9650 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1700 9350 1700
+Wire Wire Line
+	9350 1700 9350 1750
+Wire Wire Line
+	9350 1750 9050 1750
+Wire Wire Line
+	9050 1850 9350 1850
+Wire Wire Line
+	9350 1850 9350 1900
+Wire Wire Line
+	9350 1900 9450 1900
+Wire Wire Line
+	9450 1800 10400 1800
+Text HLabel 10400 1800 2    50   Output ~ 0
+LOS
 $EndSCHEMATC

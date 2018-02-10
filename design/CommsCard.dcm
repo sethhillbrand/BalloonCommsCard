@@ -61,9 +61,15 @@ F ~
 $ENDCMP
 #
 $CMP MAX3387EEUG
-D 3V, ±15kV ESD-Protected, RS-232 Transceiver 
+D 3V, ±15kV ESD-Protected, RS-232 Transceiver
 K RS232 Tranceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3387E.pdf
+$ENDCMP
+#
+$CMP MAX4426
+D Dual High-Speed 1.5A MOSFET Drivers
+K mosfet driver ttl cmos
+F https://datasheets.maximintegrated.com/en/ds/MAX4426-MAX4428.pdf
 $ENDCMP
 #
 $CMP STWD100xxWY

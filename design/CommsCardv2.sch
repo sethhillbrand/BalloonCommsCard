@@ -23,8 +23,8 @@ $EndSheet
 $Sheet
 S 8250 3850 900  800 
 U 5A78E5DD
-F0 "RS232Comms" 50
-F1 "RS232.sch" 50
+F0 "ExternalCommunications" 50
+F1 "ExtComms.sch" 50
 F2 "COMM1_TX" I L 8250 3950 50 
 F3 "COMM2_TX" I L 8250 4050 50 
 F4 "HIGHRATE_TX" I L 8250 4150 50 

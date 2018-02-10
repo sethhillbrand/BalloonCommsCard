@@ -1,0 +1,524 @@
+EESchema Schematic File Version 4
+LIBS:CommsCardv2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CommsCard:MAX3387EEUG U?
+U 1 1 5A910C7C
+P 2200 1600
+F 0 "U?" H 2200 2125 50  0000 C CNN
+F 1 "MAX3387EEUG" H 2200 2034 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 2200 2550 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3387E.pdf" H 1950 2650 50  0001 C CNN
+F 4 "MAX3387EEUG+" H 2200 1600 50  0001 C CNN "mpn"
+	1    2200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CommsCard:MAX3387EEUG U?
+U 2 1 5A910D62
+P 2200 2900
+F 0 "U?" H 2200 3425 50  0000 C CNN
+F 1 "MAX3387EEUG" H 2200 3334 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 2200 3850 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3387E.pdf" H 1950 3950 50  0001 C CNN
+F 4 "MAX3387EEUG+" H 2200 2900 50  0001 C CNN "mpn"
+	2    2200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CommsCard:MAX3387EEUG U?
+U 3 1 5A910DA8
+P 2200 4100
+F 0 "U?" H 2200 4625 50  0000 C CNN
+F 1 "MAX3387EEUG" H 2200 4534 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 2200 5050 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3387E.pdf" H 1950 5150 50  0001 C CNN
+F 4 "MAX3387EEUG+" H 2200 4100 50  0001 C CNN "mpn"
+	3    2200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CommsCard:MAX3387EEUG U?
+U 4 1 5A910E08
+P 3200 6150
+F 0 "U?" H 3450 6850 50  0000 C CNN
+F 1 "MAX3387EEUG" H 3550 6750 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3200 7100 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3387E.pdf" H 2950 7200 50  0001 C CNN
+F 4 "MAX3387EEUG+" H 3200 6150 50  0001 C CNN "mpn"
+	4    3200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5A91100F
+P 2700 5600
+F 0 "#PWR?" H 2700 5450 50  0001 C CNN
+F 1 "+3.3V" H 2715 5773 50  0000 C CNN
+F 2 "" H 2700 5600 50  0001 C CNN
+F 3 "" H 2700 5600 50  0001 C CNN
+	1    2700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A911059
+P 3200 6900
+F 0 "#PWR?" H 3200 6650 50  0001 C CNN
+F 1 "GND" H 3205 6727 50  0000 C CNN
+F 2 "" H 3200 6900 50  0001 C CNN
+F 3 "" H 3200 6900 50  0001 C CNN
+	1    3200 6900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3650 6400
+Wire Wire Line
+	3200 6800 3200 6900
+Wire Wire Line
+	3650 5750 3700 5750
+Connection ~ 3700 5750
+Wire Wire Line
+	3700 5750 3700 5600
+Wire Wire Line
+	3650 5850 3700 5850
+Wire Wire Line
+	3700 5850 3700 5750
+Wire Wire Line
+	2750 5750 2700 5750
+Wire Wire Line
+	2700 5750 2700 5600
+Wire Wire Line
+	2700 5600 3700 5600
+Connection ~ 2700 5600
+$Comp
+L Device:C C?
+U 1 1 5A919872
+P 4000 6400
+F 0 "C?" H 4115 6446 50  0000 L CNN
+F 1 "0u1F" H 4115 6355 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4038 6250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4000 6400 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 4000 6400 50  0001 C CNN "mpn"
+	1    4000 6400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5A9198C6
+P 4200 6400
+F 0 "C?" H 4315 6446 50  0000 L CNN
+F 1 "0u1F" H 4315 6355 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4238 6250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4200 6400 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 4200 6400 50  0001 C CNN "mpn"
+	1    4200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5A919934
+P 2450 6500
+F 0 "C?" H 2565 6546 50  0000 L CNN
+F 1 "0u1F" H 2565 6455 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2488 6350 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 2450 6500 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 2450 6500 50  0001 C CNN "mpn"
+	1    2450 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5A91999C
+P 2450 6000
+F 0 "C?" H 2565 6046 50  0000 L CNN
+F 1 "0u1F" H 2565 5955 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2488 5850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 2450 6000 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 2450 6000 50  0001 C CNN "mpn"
+	1    2450 6000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 6150 2450 6200
+Wire Wire Line
+	2450 6350 2450 6300
+Wire Wire Line
+	2450 6300 2750 6300
+Wire Wire Line
+	2750 6400 2600 6400
+Wire Wire Line
+	2600 6400 2600 6700
+Wire Wire Line
+	2600 6700 2450 6700
+Wire Wire Line
+	2450 6700 2450 6650
+Wire Wire Line
+	2450 6200 2750 6200
+Wire Wire Line
+	2750 6100 2600 6100
+Wire Wire Line
+	2600 6100 2600 5800
+Wire Wire Line
+	2600 5800 2450 5800
+Wire Wire Line
+	2450 5800 2450 5850
+Wire Wire Line
+	2750 5950 2700 5950
+Wire Wire Line
+	2700 5950 2700 5750
+Connection ~ 2700 5750
+$Comp
+L power:GND #PWR?
+U 1 1 5A91B8CC
+P 4100 6650
+F 0 "#PWR?" H 4100 6400 50  0001 C CNN
+F 1 "GND" H 4105 6477 50  0000 C CNN
+F 2 "" H 4100 6650 50  0001 C CNN
+F 3 "" H 4100 6650 50  0001 C CNN
+	1    4100 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6550 4200 6600
+Wire Wire Line
+	4200 6600 4100 6600
+Wire Wire Line
+	4100 6600 4100 6650
+Wire Wire Line
+	4100 6600 4000 6600
+Wire Wire Line
+	4000 6600 4000 6550
+Connection ~ 4100 6600
+Wire Wire Line
+	4000 6250 4000 6200
+Wire Wire Line
+	4000 6200 3650 6200
+Wire Wire Line
+	3650 6100 4200 6100
+Wire Wire Line
+	4200 6100 4200 6250
+Text HLabel 1800 1300 0    50   Input ~ 0
+COMM1_TX
+Text HLabel 1800 2600 0    50   Input ~ 0
+COMM2_TX
+Text HLabel 1800 3800 0    50   Input ~ 0
+HIGHRATE_TX
+Text HLabel 1800 1950 0    50   Output ~ 0
+COMM1_RX
+Text HLabel 1800 3250 0    50   Output ~ 0
+COMM2_RX
+Text HLabel 1800 4450 0    50   Output ~ 0
+HIGHRATE_RX
+$Comp
+L Connector_Specialized:DB9_Male_MountingHoles J?
+U 1 1 5A91EBAB
+P 4100 1600
+F 0 "J?" H 4279 1603 50  0000 L CNN
+F 1 "DB9_Male_MountingHoles" H 4279 1512 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 1600 50  0001 C CNN
+F 3 "" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:DB9_Male_MountingHoles J?
+U 1 1 5A91ED41
+P 4100 2900
+F 0 "J?" H 4279 2903 50  0000 L CNN
+F 1 "DB9_Male_MountingHoles" H 4279 2812 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 2900 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:DB9_Male_MountingHoles J?
+U 1 1 5A91EDCB
+P 4100 4100
+F 0 "J?" H 4279 4103 50  0000 L CNN
+F 1 "DB9_Male_MountingHoles" H 4279 4012 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 4100 50  0001 C CNN
+F 3 "" H 4100 4100 50  0001 C CNN
+	1    4100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4300 3200 4300
+Wire Wire Line
+	3200 4300 3200 4450
+Wire Wire Line
+	3200 4450 2600 4450
+Wire Wire Line
+	3800 4100 3200 4100
+Wire Wire Line
+	3200 4100 3200 3800
+Wire Wire Line
+	3200 3800 2600 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5A91F8CD
+P 3600 3750
+F 0 "#PWR?" H 3600 3500 50  0001 C CNN
+F 1 "GND" H 3605 3577 50  0000 C CNN
+F 2 "" H 3600 3750 50  0001 C CNN
+F 3 "" H 3600 3750 50  0001 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3700 3600 3700
+Wire Wire Line
+	3600 3700 3600 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5A91FECB
+P 3600 2550
+F 0 "#PWR?" H 3600 2300 50  0001 C CNN
+F 1 "GND" H 3605 2377 50  0000 C CNN
+F 2 "" H 3600 2550 50  0001 C CNN
+F 3 "" H 3600 2550 50  0001 C CNN
+	1    3600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2500 3600 2500
+Wire Wire Line
+	3600 2500 3600 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5A9204CA
+P 3600 1250
+F 0 "#PWR?" H 3600 1000 50  0001 C CNN
+F 1 "GND" H 3605 1077 50  0000 C CNN
+F 2 "" H 3600 1250 50  0001 C CNN
+F 3 "" H 3600 1250 50  0001 C CNN
+	1    3600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1200 3600 1200
+Wire Wire Line
+	3600 1200 3600 1250
+Wire Wire Line
+	3800 3100 3200 3100
+Wire Wire Line
+	3200 3100 3200 3250
+Wire Wire Line
+	3200 3250 2600 3250
+Wire Wire Line
+	3800 2900 3200 2900
+Wire Wire Line
+	3200 2900 3200 2600
+Wire Wire Line
+	3200 2600 2600 2600
+Wire Wire Line
+	3800 1800 3200 1800
+Wire Wire Line
+	3200 1800 3200 1950
+Wire Wire Line
+	3200 1950 2600 1950
+Wire Wire Line
+	3800 1600 3200 1600
+Wire Wire Line
+	3200 1600 3200 1300
+Wire Wire Line
+	3200 1300 2600 1300
+$Comp
+L Device:C C?
+U 1 1 5A92E4F1
+P 1950 5750
+F 0 "C?" H 2065 5796 50  0000 L CNN
+F 1 "0u1F" H 2065 5705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1988 5600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 1950 5750 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 1950 5750 50  0001 C CNN "mpn"
+	1    1950 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5600 1950 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5A92F26A
+P 1950 5900
+F 0 "#PWR?" H 1950 5650 50  0001 C CNN
+F 1 "GND" H 1955 5727 50  0000 C CNN
+F 2 "" H 1950 5900 50  0001 C CNN
+F 3 "" H 1950 5900 50  0001 C CNN
+	1    1950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5A931D47
+P 4100 2200
+F 0 "#PWR?" H 4100 2000 50  0001 C CNN
+F 1 "GNDPWR" H 4150 2300 50  0000 C CNN
+F 2 "" H 4100 2150 50  0001 C CNN
+F 3 "" H 4100 2150 50  0001 C CNN
+	1    4100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5A932BDD
+P 4100 3500
+F 0 "#PWR?" H 4100 3300 50  0001 C CNN
+F 1 "GNDPWR" H 4150 3600 50  0000 C CNN
+F 2 "" H 4100 3450 50  0001 C CNN
+F 3 "" H 4100 3450 50  0001 C CNN
+	1    4100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5A932F00
+P 4100 4700
+F 0 "#PWR?" H 4100 4500 50  0001 C CNN
+F 1 "GNDPWR" H 4150 4800 50  0000 C CNN
+F 2 "" H 4100 4650 50  0001 C CNN
+F 3 "" H 4100 4650 50  0001 C CNN
+	1    4100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CommsCard:MAX4427 U?
+U 1 1 5A7EB07C
+P 7900 4550
+F 0 "U?" H 7900 5278 50  0000 C CNN
+F 1 "MAX4427" H 7900 5187 50  0000 C CNN
+F 2 "Housings_SOIC:SO-8_5.3x6.2mm_Pitch1.27mm" H 8700 3550 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4426-MAX4428.pdf" H 8700 3550 50  0001 C CNN
+	1    7900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A7EB129
+P 7400 4800
+F 0 "#PWR?" H 7400 4550 50  0001 C CNN
+F 1 "GND" H 7405 4627 50  0000 C CNN
+F 2 "" H 7400 4800 50  0001 C CNN
+F 3 "" H 7400 4800 50  0001 C CNN
+	1    7400 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4800 7400 4700
+Wire Wire Line
+	7400 4700 7500 4700
+Text HLabel 7500 4400 0    50   Input ~ 0
+LOS
+$Comp
+L Interface_UART:MAX3485 U?
+U 1 1 5A7EC127
+P 7900 2900
+F 0 "U?" H 7900 3578 50  0000 C CNN
+F 1 "MAX3485" H 7900 3487 50  0000 C CNN
+F 2 "" H 7900 2200 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 7900 2950 50  0001 C CNN
+	1    7900 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 7500 3100 0    50   Input ~ 0
+LOS
+$Comp
+L power:GND #PWR?
+U 1 1 5A7EC1CD
+P 7150 2950
+F 0 "#PWR?" H 7150 2700 50  0001 C CNN
+F 1 "GND" H 7155 2777 50  0000 C CNN
+F 2 "" H 7150 2950 50  0001 C CNN
+F 3 "" H 7150 2950 50  0001 C CNN
+	1    7150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3000 7450 3000
+Wire Wire Line
+	7450 3000 7450 2900
+Wire Wire Line
+	7450 2900 7500 2900
+Wire Wire Line
+	7450 2900 7150 2900
+Wire Wire Line
+	7150 2900 7150 2950
+Connection ~ 7450 2900
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5A7EF29D
+P 6800 1200
+F 0 "JP?" H 6800 1385 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6800 1294 50  0000 C CNN
+F 2 "" H 6800 1200 50  0001 C CNN
+F 3 "~" H 6800 1200 50  0001 C CNN
+	1    6800 1200
+	1    0    0    -1  
+$EndComp
+Text Label 6650 3750 0    50   ~ 0
+RS422_ENABLE
+Wire Wire Line
+	6700 1200 6450 1200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5A7F1616
+P 6450 1200
+F 0 "#PWR?" H 6450 1050 50  0001 C CNN
+F 1 "+3.3V" H 6465 1373 50  0000 C CNN
+F 2 "" H 6450 1200 50  0001 C CNN
+F 3 "" H 6450 1200 50  0001 C CNN
+	1    6450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A7F1776
+P 7000 1400
+F 0 "#PWR?" H 7000 1150 50  0001 C CNN
+F 1 "GND" H 7005 1227 50  0000 C CNN
+F 2 "" H 7000 1400 50  0001 C CNN
+F 3 "" H 7000 1400 50  0001 C CNN
+	1    7000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5A7F8F38
+P 7000 1300
+F 0 "R?" V 7100 1300 50  0000 C CNN
+F 1 "1k" V 6884 1300 50  0000 C CNN
+F 2 "" V 6930 1300 50  0001 C CNN
+F 3 "~" H 7000 1300 50  0001 C CNN
+	1    7000 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1200 7000 1200
+Connection ~ 7000 1200
+Wire Wire Line
+	7000 1200 7150 1200
+$Comp
+L Analog_Switch:FSA3157L6X U?
+U 1 1 5A7FCB93
+P 7450 800
+F 0 "U?" H 7450 1042 50  0000 C CNN
+F 1 "FSA3157L6X" H 7450 951 50  0000 C CNN
+F 2 "Package_SON:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm" H 7450 500 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf" H 7450 800 50  0001 C CNN
+	1    7450 800 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

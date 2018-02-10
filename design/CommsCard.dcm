@@ -78,4 +78,10 @@ K WD Watchdog
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf
 $ENDCMP
 #
+$CMP TPS28225
+D High-Frequency 4-A Sink Synchronous MOSFET Drivers
+K N-Channel MOSFET Driver Dual
+F High-Frequency 4-A Sink Synchronous MOSFET Drivers
+$ENDCMP
+#
 #End Doc Library

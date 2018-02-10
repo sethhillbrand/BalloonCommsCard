@@ -395,130 +395,524 @@ F 3 "" H 4100 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CommsCard:MAX4427 U?
+L CommsCard:TPS28225 U?
 U 1 1 5A7EB07C
 P 7900 4550
-F 0 "U?" H 7900 5278 50  0000 C CNN
-F 1 "MAX4427" H 7900 5187 50  0000 C CNN
-F 2 "Housings_SOIC:SO-8_5.3x6.2mm_Pitch1.27mm" H 8700 3550 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4426-MAX4428.pdf" H 8700 3550 50  0001 C CNN
+F 0 "U?" H 8050 5200 50  0000 C CNN
+F 1 "TPS28225DRBT" H 8150 5100 50  0000 C CNN
+F 2 "Package_SON:Texas_S-PVSON-N8" H 8700 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps28225.pdf" H 8700 3550 50  0001 C CNN
 	1    7900 4550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A7EB129
-P 7400 4800
-F 0 "#PWR?" H 7400 4550 50  0001 C CNN
-F 1 "GND" H 7405 4627 50  0000 C CNN
-F 2 "" H 7400 4800 50  0001 C CNN
-F 3 "" H 7400 4800 50  0001 C CNN
-	1    7400 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 4800 7400 4700
-Wire Wire Line
-	7400 4700 7500 4700
-Text HLabel 7500 4400 0    50   Input ~ 0
+Text HLabel 7150 4550 0    50   Input ~ 0
 LOS
 $Comp
 L Interface_UART:MAX3485 U?
 U 1 1 5A7EC127
-P 7900 2900
-F 0 "U?" H 7900 3578 50  0000 C CNN
-F 1 "MAX3485" H 7900 3487 50  0000 C CNN
-F 2 "" H 7900 2200 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 7900 2950 50  0001 C CNN
-	1    7900 2900
+P 7950 2350
+F 0 "U?" H 8100 2950 50  0000 C CNN
+F 1 "MAX3485" H 8200 2850 50  0000 C CNN
+F 2 "" H 7950 1650 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 7950 2400 50  0001 C CNN
+	1    7950 2350
 	1    0    0    -1  
 $EndComp
-Text HLabel 7500 3100 0    50   Input ~ 0
+Text HLabel 7550 2550 0    50   Input ~ 0
 LOS
 $Comp
-L power:GND #PWR?
-U 1 1 5A7EC1CD
-P 7150 2950
-F 0 "#PWR?" H 7150 2700 50  0001 C CNN
-F 1 "GND" H 7155 2777 50  0000 C CNN
-F 2 "" H 7150 2950 50  0001 C CNN
-F 3 "" H 7150 2950 50  0001 C CNN
-	1    7150 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 3000 7450 3000
-Wire Wire Line
-	7450 3000 7450 2900
-Wire Wire Line
-	7450 2900 7500 2900
-Wire Wire Line
-	7450 2900 7150 2900
-Wire Wire Line
-	7150 2900 7150 2950
-Connection ~ 7450 2900
-$Comp
-L Device:Jumper_NO_Small JP?
+L Jumper:Jumper_3_Open JP?
 U 1 1 5A7EF29D
-P 6800 1200
-F 0 "JP?" H 6800 1385 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 6800 1294 50  0000 C CNN
-F 2 "" H 6800 1200 50  0001 C CNN
-F 3 "~" H 6800 1200 50  0001 C CNN
-	1    6800 1200
+P 6600 1300
+F 0 "JP?" H 6600 1485 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6600 1394 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6600 1300 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 6600 1300 50  0001 C CNN
+F 4 "M20-9990345" H 6600 1300 50  0001 C CNN "mpn"
+	1    6600 1300
 	1    0    0    -1  
 $EndComp
-Text Label 6650 3750 0    50   ~ 0
-RS422_ENABLE
-Wire Wire Line
-	6700 1200 6450 1200
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5A7F1616
-P 6450 1200
-F 0 "#PWR?" H 6450 1050 50  0001 C CNN
-F 1 "+3.3V" H 6465 1373 50  0000 C CNN
-F 2 "" H 6450 1200 50  0001 C CNN
-F 3 "" H 6450 1200 50  0001 C CNN
-	1    6450 1200
+P 6900 1100
+F 0 "#PWR?" H 6900 950 50  0001 C CNN
+F 1 "+3.3V" H 6915 1273 50  0000 C CNN
+F 2 "" H 6900 1100 50  0001 C CNN
+F 3 "" H 6900 1100 50  0001 C CNN
+	1    6900 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5A7F1776
-P 7000 1400
-F 0 "#PWR?" H 7000 1150 50  0001 C CNN
-F 1 "GND" H 7005 1227 50  0000 C CNN
-F 2 "" H 7000 1400 50  0001 C CNN
-F 3 "" H 7000 1400 50  0001 C CNN
-	1    7000 1400
+P 6600 1500
+F 0 "#PWR?" H 6600 1250 50  0001 C CNN
+F 1 "GND" H 6605 1327 50  0000 C CNN
+F 2 "" H 6600 1500 50  0001 C CNN
+F 3 "" H 6600 1500 50  0001 C CNN
+	1    6600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Conn_Coaxial J?
+U 1 1 5A7F6B83
+P 10400 4550
+F 0 "J?" H 10499 4526 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10499 4435 50  0000 L CNN
+F 2 "" H 10400 4550 50  0001 C CNN
+F 3 "" H 10400 4550 50  0001 C CNN
+	1    10400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 5A7F6C3C
+P 7950 2950
+F 0 "#PWR?" H 7950 2700 50  0001 C CNN
+F 1 "GNDS" H 7955 2777 50  0000 C CNN
+F 2 "" H 7950 2950 50  0001 C CNN
+F 3 "" H 7950 2950 50  0001 C CNN
+	1    7950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 5A7F6CCD
+P 8500 4900
+F 0 "#PWR?" H 8500 4650 50  0001 C CNN
+F 1 "GNDS" H 8505 4727 50  0000 C CNN
+F 2 "" H 8500 4900 50  0001 C CNN
+F 3 "" H 8500 4900 50  0001 C CNN
+	1    8500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 5A7F6F06
+P 10400 4750
+F 0 "#PWR?" H 10400 4500 50  0001 C CNN
+F 1 "GNDS" H 10405 4577 50  0000 C CNN
+F 2 "" H 10400 4750 50  0001 C CNN
+F 3 "" H 10400 4750 50  0001 C CNN
+	1    10400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4550 10250 4550
+Wire Wire Line
+	7150 4550 7500 4550
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5A800AE8
+P 9300 4100
+F 0 "Q?" H 9505 4146 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 9505 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9500 4200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN2056U.pdf" H 9300 4100 50  0001 C CNN
+	1    9300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5A803527
+P 9300 5100
+F 0 "Q?" H 9505 5146 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 9505 5055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9500 5200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN2056U.pdf" H 9300 5100 50  0001 C CNN
+	1    9300 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4550 9400 4550
+Wire Wire Line
+	9400 4550 9400 4300
+Wire Wire Line
+	9400 4550 9400 4900
+Connection ~ 9400 4550
+$Comp
+L Device:R_Small R?
+U 1 1 5A805C94
+P 9000 4900
+F 0 "R?" H 9059 4946 50  0000 L CNN
+F 1 "0R" H 9059 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 9000 4900 50  0001 C CNN
+F 3 "~" H 9000 4900 50  0001 C CNN
+F 4 "~" H 9000 4900 50  0001 C CNN "mpn"
+	1    9000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4400 9000 4400
+Wire Wire Line
+	9000 4200 9000 4100
+Wire Wire Line
+	9000 4100 9100 4100
+Wire Wire Line
+	9000 4800 9000 4700
+Wire Wire Line
+	9000 4700 8350 4700
+Wire Wire Line
+	9100 5100 9000 5100
+Wire Wire Line
+	9000 5100 9000 5000
+$Comp
+L Device:R_Small R?
+U 1 1 5A80B24F
+P 9000 4300
+F 0 "R?" H 9059 4346 50  0000 L CNN
+F 1 "0R" H 9059 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 9000 4300 50  0001 C CNN
+F 3 "~" H 9000 4300 50  0001 C CNN
+F 4 "~" H 9000 4300 50  0001 C CNN "mpn"
+	1    9000 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 5A7F8F38
-P 7000 1300
-F 0 "R?" V 7100 1300 50  0000 C CNN
-F 1 "1k" V 6884 1300 50  0000 C CNN
-F 2 "" V 6930 1300 50  0001 C CNN
-F 3 "~" H 7000 1300 50  0001 C CNN
-	1    7000 1300
+U 1 1 5A80B2A5
+P 9800 4550
+F 0 "R?" V 9604 4550 50  0000 C CNN
+F 1 "50R" V 9695 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric" H 9800 4550 50  0001 C CNN
+F 3 "http://datasheets.avx.com/SurfaceMountTerm.pdf" H 9800 4550 50  0001 C CNN
+F 4 "RP92010T0050GTTR" H 9800 4550 50  0001 C CNN "mpn"
+	1    9800 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 4550 9400 4550
+$Comp
+L power:GNDS #PWR?
+U 1 1 5A80E13A
+P 9400 5350
+F 0 "#PWR?" H 9400 5100 50  0001 C CNN
+F 1 "GNDS" H 9405 5177 50  0000 C CNN
+F 2 "" H 9400 5350 50  0001 C CNN
+F 3 "" H 9400 5350 50  0001 C CNN
+	1    9400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 5350 9400 5300
+Wire Wire Line
+	8500 4900 8500 4850
+Wire Wire Line
+	8500 4850 8350 4850
+Text Label 8950 4550 0    50   ~ 0
+PHASE
+Wire Wire Line
+	7500 4400 7350 4400
+$Comp
+L Device:C_Small C?
+U 1 1 5A81452A
+P 7250 4400
+F 0 "C?" V 7021 4400 50  0000 C CNN
+F 1 "0u22F" V 7112 4400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7250 4400 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx" H 7250 4400 50  0001 C CNN
+F 4 "GCM188R71E224KA55D" H 7250 4400 50  0001 C CNN "mpn"
+	1    7250 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 4400 7150 4400
+Text Label 6900 4400 0    50   ~ 0
+PHASE
+Wire Wire Line
+	7400 2350 7550 2350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5A81B337
+P 7400 2350
+F 0 "#PWR?" H 7400 2200 50  0001 C CNN
+F 1 "+3.3V" H 7415 2523 50  0000 C CNN
+F 2 "" H 7400 2350 50  0001 C CNN
+F 3 "" H 7400 2350 50  0001 C CNN
+	1    7400 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7550 2250
+Wire Wire Line
+	6600 1500 6600 1450
+$Comp
+L Device:R_Small R?
+U 1 1 5A827761
+P 6900 1200
+F 0 "R?" H 6830 1154 50  0000 R CNN
+F 1 "10k" H 6830 1245 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603" V 6830 1200 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6900 1200 50  0001 C CNN
+F 4 "CRG0603F1K0" H 6900 1200 50  0001 C CNN "mpn"
+	1    6900 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5A829294
+P 6300 1100
+F 0 "#PWR?" H 6300 950 50  0001 C CNN
+F 1 "+3.3V" H 6315 1273 50  0000 C CNN
+F 2 "" H 6300 1100 50  0001 C CNN
+F 3 "" H 6300 1100 50  0001 C CNN
+	1    6300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5A82929B
+P 6300 1200
+F 0 "R?" H 6230 1154 50  0000 R CNN
+F 1 "10k" H 6230 1245 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603" V 6230 1200 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6300 1200 50  0001 C CNN
+F 4 "CRG0603F1K0" H 6300 1200 50  0001 C CNN "mpn"
+	1    6300 1200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1300 6900 1300
+Wire Wire Line
+	6350 1300 6300 1300
+Connection ~ 6300 1300
+Wire Wire Line
+	6300 1300 6050 1300
+Connection ~ 6900 1300
+Wire Wire Line
+	6900 1300 7250 1300
+Text Label 7250 1300 0    50   ~ 0
+RS422_EN
+Text Label 6050 1300 2    50   ~ 0
+LOS_EN
+Wire Notes Line width 12
+	11100 3400 11100 5600
+Wire Notes Line width 12
+	11100 5600 8800 5600
+Wire Notes Line width 12
+	8800 5600 8800 3400
+Wire Notes Line width 12
+	8800 3400 11100 3400
+Text Notes 11000 3350 2    50   ~ 0
+This section can drive 5V over 50Ohm.\nEnsure all traces/components rated to 0.5W
+Text Label 10200 4550 3    50   ~ 0
+LOS_OUT
+$Comp
+L power:+5V #PWR?
+U 1 1 5A809BE0
+P 9400 3650
+F 0 "#PWR?" H 9400 3500 50  0001 C CNN
+F 1 "+5V" H 9415 3823 50  0000 C CNN
+F 2 "" H 9400 3650 50  0001 C CNN
+F 3 "" H 9400 3650 50  0001 C CNN
+	1    9400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5A809C22
+P 7400 3850
+F 0 "#PWR?" H 7400 3700 50  0001 C CNN
+F 1 "+5V" H 7415 4023 50  0000 C CNN
+F 2 "" H 7400 3850 50  0001 C CNN
+F 3 "" H 7400 3850 50  0001 C CNN
+	1    7400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4250 7400 4250
+Wire Wire Line
+	7400 4250 7400 3950
+$Comp
+L Device:C_Small C?
+U 1 1 5A80BC9F
+P 10350 3850
+F 0 "C?" V 10121 3850 50  0000 C CNN
+F 1 "10uF" V 10212 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10350 3850 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 10350 3850 50  0001 C CNN
+F 4 "LMK212AB7106MG-T" H 10350 3850 50  0001 C CNN "mpn"
+	1    10350 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5A80BEF8
+P 10650 3850
+F 0 "C?" V 10421 3850 50  0000 C CNN
+F 1 "10uF" V 10512 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10650 3850 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 10650 3850 50  0001 C CNN
+F 4 "LMK212AB7106MG-T" H 10650 3850 50  0001 C CNN "mpn"
+	1    10650 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 5A80DB5C
+P 10350 3950
+F 0 "#PWR?" H 10350 3700 50  0001 C CNN
+F 1 "GNDS" H 10355 3777 50  0000 C CNN
+F 2 "" H 10350 3950 50  0001 C CNN
+F 3 "" H 10350 3950 50  0001 C CNN
+	1    10350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3650 9400 3750
+Wire Wire Line
+	10650 3750 10350 3750
+$Comp
+L power:GNDS #PWR?
+U 1 1 5A81A8AB
+P 10650 3950
+F 0 "#PWR?" H 10650 3700 50  0001 C CNN
+F 1 "GNDS" H 10655 3777 50  0000 C CNN
+F 2 "" H 10650 3950 50  0001 C CNN
+F 3 "" H 10650 3950 50  0001 C CNN
+	1    10650 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 3750 9400 3750
+Connection ~ 10350 3750
+Connection ~ 9400 3750
+Wire Wire Line
+	9400 3750 9400 3900
+$Comp
+L Device:C_Small C?
+U 1 1 5A822155
+P 6800 4050
+F 0 "C?" H 6915 4096 50  0000 L CNN
+F 1 "0u1F" H 6915 4005 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6838 3900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6800 4050 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 6800 4050 50  0001 C CNN "mpn"
+	1    6800 4050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 1200 7000 1200
-Connection ~ 7000 1200
+	7400 3950 6800 3950
+Connection ~ 7400 3950
 Wire Wire Line
-	7000 1200 7150 1200
+	7400 3950 7400 3850
 $Comp
-L Analog_Switch:FSA3157L6X U?
-U 1 1 5A7FCB93
-P 7450 800
-F 0 "U?" H 7450 1042 50  0000 C CNN
-F 1 "FSA3157L6X" H 7450 951 50  0000 C CNN
-F 2 "Package_SON:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm" H 7450 500 50  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf" H 7450 800 50  0001 C CNN
-	1    7450 800 
+L power:GNDS #PWR?
+U 1 1 5A827CD6
+P 6800 4150
+F 0 "#PWR?" H 6800 3900 50  0001 C CNN
+F 1 "GNDS" H 6805 3977 50  0000 C CNN
+F 2 "" H 6800 4150 50  0001 C CNN
+F 3 "" H 6800 4150 50  0001 C CNN
+	1    6800 4150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7500 4700 7100 4700
+Text Label 7100 4700 0    50   ~ 0
+LOS_EN
+$Comp
+L power:GNDS #PWR?
+U 1 1 5A82A28A
+P 7350 4900
+F 0 "#PWR?" H 7350 4650 50  0001 C CNN
+F 1 "GNDS" H 7355 4727 50  0000 C CNN
+F 2 "" H 7350 4900 50  0001 C CNN
+F 3 "" H 7350 4900 50  0001 C CNN
+	1    7350 4900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4900 7350 4850
+Wire Wire Line
+	7350 4850 7500 4850
+Wire Wire Line
+	6950 2450 7550 2450
+Text Label 6950 2450 0    50   ~ 0
+RS422_EN
+$Comp
+L Device:C_Small C?
+U 1 1 5A832A58
+P 7350 1750
+F 0 "C?" H 7465 1796 50  0000 L CNN
+F 1 "0u1F" H 7465 1705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7388 1600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 7350 1750 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 7350 1750 50  0001 C CNN "mpn"
+	1    7350 1750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1650 7350 1650
+$Comp
+L power:GNDS #PWR?
+U 1 1 5A832A5F
+P 7350 1850
+F 0 "#PWR?" H 7350 1600 50  0001 C CNN
+F 1 "GNDS" H 7355 1677 50  0000 C CNN
+F 2 "" H 7350 1850 50  0001 C CNN
+F 3 "" H 7350 1850 50  0001 C CNN
+	1    7350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1850 7950 1650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5A836E2A
+P 7950 1650
+F 0 "#PWR?" H 7950 1500 50  0001 C CNN
+F 1 "+3.3V" H 7965 1823 50  0000 C CNN
+F 2 "" H 7950 1650 50  0001 C CNN
+F 3 "" H 7950 1650 50  0001 C CNN
+	1    7950 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 1650
+$Comp
+L Device:R_Small R?
+U 1 1 5A8371E1
+P 8650 2400
+F 0 "R?" H 8580 2354 50  0000 R CNN
+F 1 "120R" H 8580 2445 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603" V 8580 2400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 8650 2400 50  0001 C CNN
+F 4 "RT0603DRE07120RL" H 8650 2400 50  0001 C CNN "mpn"
+	1    8650 2400
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5A8387FE
+P 9600 2450
+F 0 "J?" H 9520 2125 50  0000 C CNN
+F 1 "Conn_01x02" H 9520 2216 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal" H 9600 2450 50  0001 C CNN
+F 3 "~" H 9600 2450 50  0001 C CNN
+F 4 "~" H 9600 2450 50  0001 C CNN "mpn"
+	1    9600 2450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9400 2450 9050 2450
+Wire Wire Line
+	9050 2450 9050 2550
+Wire Wire Line
+	9050 2550 8650 2550
+Wire Wire Line
+	9400 2350 9050 2350
+Wire Wire Line
+	9050 2350 9050 2250
+Wire Wire Line
+	9050 2250 8650 2250
+Wire Wire Line
+	8650 2550 8650 2500
+Connection ~ 8650 2550
+Wire Wire Line
+	8650 2550 8350 2550
+Wire Wire Line
+	8650 2300 8650 2250
+Connection ~ 8650 2250
+Wire Wire Line
+	8650 2250 8350 2250
 $EndSCHEMATC

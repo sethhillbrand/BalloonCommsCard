@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name TI-QFN)(type KiCad)(uri "$(KIPRJMOD)/TI-QFN.pretty")(options "")(descr ""))
+  (lib (name ResistorArray)(type KiCad)(uri "$(KIPRJMOD)/ResistorArray.pretty")(options "")(descr ""))
 )

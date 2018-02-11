@@ -1,0 +1,337 @@
+EESchema Schematic File Version 4
+LIBS:CommsCardv2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:ADUM3160 U1001
+U 1 1 5A8C44FE
+P 5200 3250
+AR Path="/5A8D14B5/5A8C44FE" Ref="U1001"  Part="1" 
+AR Path="/5A8C396A/5A8C44FE" Ref="U901"  Part="1" 
+F 0 "U901" H 5200 4028 50  0000 C CNN
+F 1 "ADUM3160" H 5200 3937 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 5200 2550 50  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf" H 5000 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:USB_B_Micro J1001
+U 1 1 5A8C4970
+P 2600 3150
+AR Path="/5A8D14B5/5A8C4970" Ref="J1001"  Part="1" 
+AR Path="/5A8C396A/5A8C4970" Ref="J901"  Part="1" 
+F 0 "J901" H 2655 3526 50  0000 C CNN
+F 1 "USB_B" H 2655 3526 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 2750 3100 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf" H 2750 3100 50  0001 C CNN
+F 4 "10103594-0001LF" H 2600 3150 50  0001 C CNN "mpn"
+	1    2600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3850 5100 4000
+Wire Wire Line
+	5100 4000 5000 4000
+Wire Wire Line
+	5000 4000 5000 3850
+Wire Wire Line
+	5000 4000 4450 4000
+Wire Wire Line
+	2600 4000 2600 3550
+Connection ~ 5000 4000
+$Comp
+L power:GNDPWR #PWR01001
+U 1 1 5A8C4E52
+P 2500 3550
+AR Path="/5A8D14B5/5A8C4E52" Ref="#PWR01001"  Part="1" 
+AR Path="/5A8C396A/5A8C4E52" Ref="#PWR0901"  Part="1" 
+F 0 "#PWR01001" H 2500 3350 50  0001 C CNN
+F 1 "GNDPWR" H 2504 3624 50  0000 C CNN
+F 2 "" H 2500 3500 50  0001 C CNN
+F 3 "" H 2500 3500 50  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3350 2900 4000
+Connection ~ 2900 4000
+Wire Wire Line
+	2900 4000 2600 4000
+$Comp
+L Device:R_Small R1002
+U 1 1 5A8C4F26
+P 4050 3250
+AR Path="/5A8D14B5/5A8C4F26" Ref="R1002"  Part="1" 
+AR Path="/5A8C396A/5A8C4F26" Ref="R902"  Part="1" 
+F 0 "R902" V 4250 3250 50  0000 C CNN
+F 1 "24R" V 4150 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4050 3250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4050 3250 50  0001 C CNN
+F 4 "ERA-2AKD240X" H 4050 3250 50  0001 C CNN "mpn"
+	1    4050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1001
+U 1 1 5A8C58B8
+P 3400 2750
+AR Path="/5A8D14B5/5A8C58B8" Ref="C1001"  Part="1" 
+AR Path="/5A8C396A/5A8C58B8" Ref="C901"  Part="1" 
+F 0 "C901" H 3515 2796 50  0000 L CNN
+F 1 "0u1F" H 3515 2705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3438 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 3400 2750 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 3400 2750 50  0001 C CNN "mpn"
+	1    3400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1002
+U 1 1 5A8C58F7
+P 4450 3700
+AR Path="/5A8D14B5/5A8C58F7" Ref="C1002"  Part="1" 
+AR Path="/5A8C396A/5A8C58F7" Ref="C902"  Part="1" 
+F 0 "C902" H 4565 3746 50  0000 L CNN
+F 1 "0u1F" H 4565 3655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4488 3550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4450 3700 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 4450 3700 50  0001 C CNN "mpn"
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3350 4450 3350
+Wire Wire Line
+	4450 3350 4450 3450
+Wire Wire Line
+	4700 3450 4450 3450
+Connection ~ 4450 3450
+Connection ~ 4450 4000
+Wire Wire Line
+	3200 2950 2900 2950
+Wire Wire Line
+	3200 2950 3200 2650
+Wire Wire Line
+	3200 2650 3400 2650
+Wire Wire Line
+	4150 3150 4700 3150
+Wire Wire Line
+	2900 4000 3400 4000
+Connection ~ 3400 2650
+Wire Wire Line
+	3400 2650 5100 2650
+Wire Wire Line
+	3400 2850 3400 4000
+Text Label 4450 4000 2    50   ~ 0
+USB_GND
+Wire Wire Line
+	4450 3350 4450 2850
+Connection ~ 4450 3350
+Wire Wire Line
+	4450 2850 4700 2850
+Connection ~ 3400 4000
+Wire Wire Line
+	3400 4000 4450 4000
+Text Label 4450 2650 2    50   ~ 0
+USB_PWR
+$Comp
+L power:GND #PWR01002
+U 1 1 5A8C8B8D
+P 5400 4000
+AR Path="/5A8D14B5/5A8C8B8D" Ref="#PWR01002"  Part="1" 
+AR Path="/5A8C396A/5A8C8B8D" Ref="#PWR0902"  Part="1" 
+F 0 "#PWR01002" H 5400 3750 50  0001 C CNN
+F 1 "GND" H 5405 3827 50  0000 C CNN
+F 2 "" H 5400 4000 50  0001 C CNN
+F 3 "" H 5400 4000 50  0001 C CNN
+	1    5400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4000 5300 4000
+Wire Wire Line
+	5300 4000 5300 3850
+Wire Wire Line
+	5400 4000 5400 3850
+Connection ~ 5400 4000
+$Comp
+L Device:R_Small R1003
+U 1 1 5A8C93E9
+P 6000 3150
+AR Path="/5A8D14B5/5A8C93E9" Ref="R1003"  Part="1" 
+AR Path="/5A8C396A/5A8C93E9" Ref="R903"  Part="1" 
+F 0 "R903" V 5804 3150 50  0000 C CNN
+F 1 "24R" V 5895 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 3150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6000 3150 50  0001 C CNN
+F 4 "ERA-2AKD240X" H 6000 3150 50  0001 C CNN "mpn"
+	1    6000 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3450 5800 3450
+Wire Wire Line
+	5800 3450 5800 2950
+Wire Wire Line
+	5800 2950 5700 2950
+Wire Wire Line
+	5800 2950 5800 2850
+Wire Wire Line
+	5800 2850 5700 2850
+Connection ~ 5800 2950
+Wire Wire Line
+	5900 3150 5700 3150
+Wire Wire Line
+	5900 3250 5700 3250
+$Comp
+L Device:R_Small R1001
+U 1 1 5A8C5368
+P 4050 3150
+AR Path="/5A8D14B5/5A8C5368" Ref="R1001"  Part="1" 
+AR Path="/5A8C396A/5A8C5368" Ref="R901"  Part="1" 
+F 0 "R901" V 3854 3150 50  0000 C CNN
+F 1 "24R" V 3945 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4050 3150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4050 3150 50  0001 C CNN
+F 4 "ERA-2AKD240X" H 4050 3150 50  0001 C CNN "mpn"
+	1    4050 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1004
+U 1 1 5A8CAB7B
+P 6000 3250
+AR Path="/5A8D14B5/5A8CAB7B" Ref="R1004"  Part="1" 
+AR Path="/5A8C396A/5A8CAB7B" Ref="R904"  Part="1" 
+F 0 "R904" V 6200 3250 50  0000 C CNN
+F 1 "24R" V 6100 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 3250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6000 3250 50  0001 C CNN
+F 4 "ERA-2AKD240X" H 6000 3250 50  0001 C CNN "mpn"
+	1    6000 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 3250 4700 3250
+Wire Wire Line
+	3950 3250 2900 3250
+Wire Wire Line
+	2900 3150 3950 3150
+Wire Wire Line
+	5800 2850 5800 2650
+Wire Wire Line
+	5800 2650 5300 2650
+Connection ~ 5800 2850
+Wire Wire Line
+	4450 3800 4450 4000
+Wire Wire Line
+	4450 3450 4450 3600
+$Comp
+L Device:C_Small C1004
+U 1 1 5A8CE0CB
+P 6350 2750
+AR Path="/5A8D14B5/5A8CE0CB" Ref="C1004"  Part="1" 
+AR Path="/5A8C396A/5A8CE0CB" Ref="C904"  Part="1" 
+F 0 "C904" H 6465 2796 50  0000 L CNN
+F 1 "0u1F" H 6465 2705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6388 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6350 2750 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 6350 2750 50  0001 C CNN "mpn"
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1003
+U 1 1 5A8CE121
+P 6150 2750
+AR Path="/5A8D14B5/5A8CE121" Ref="C1003"  Part="1" 
+AR Path="/5A8C396A/5A8CE121" Ref="C903"  Part="1" 
+F 0 "C903" H 6265 2796 50  0000 L CNN
+F 1 "0u1F" H 6265 2705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6188 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6150 2750 50  0001 C CNN
+F 4 "CL10F104ZB8NNNC" H 6150 2750 50  0001 C CNN "mpn"
+	1    6150 2750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2650 6150 2650
+Connection ~ 5800 2650
+Connection ~ 6150 2650
+Wire Wire Line
+	6150 2650 6350 2650
+$Comp
+L power:GND #PWR01003
+U 1 1 5A8CECB9
+P 6150 2850
+AR Path="/5A8D14B5/5A8CECB9" Ref="#PWR01003"  Part="1" 
+AR Path="/5A8C396A/5A8CECB9" Ref="#PWR0903"  Part="1" 
+F 0 "#PWR01003" H 6150 2600 50  0001 C CNN
+F 1 "GND" H 6155 2677 50  0000 C CNN
+F 2 "" H 6150 2850 50  0001 C CNN
+F 3 "" H 6150 2850 50  0001 C CNN
+	1    6150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01004
+U 1 1 5A8CECD8
+P 6350 2850
+AR Path="/5A8D14B5/5A8CECD8" Ref="#PWR01004"  Part="1" 
+AR Path="/5A8C396A/5A8CECD8" Ref="#PWR0904"  Part="1" 
+F 0 "#PWR01004" H 6350 2600 50  0001 C CNN
+F 1 "GND" H 6355 2677 50  0000 C CNN
+F 2 "" H 6350 2850 50  0001 C CNN
+F 3 "" H 6350 2850 50  0001 C CNN
+	1    6350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3150 6300 3150
+Text HLabel 6300 3150 2    50   BiDi ~ 0
+USB_DP
+Text HLabel 6300 3250 2    50   BiDi ~ 0
+USB_DM
+Wire Wire Line
+	6100 3250 6300 3250
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5A8D4377
+P 5800 2650
+AR Path="/5A8C396A/5A8D4377" Ref="#FLG01"  Part="1" 
+AR Path="/5A8D14B5/5A8D4377" Ref="#FLG03"  Part="1" 
+F 0 "#FLG03" H 5800 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 5800 2824 50  0000 C CNN
+F 2 "" H 5800 2650 50  0001 C CNN
+F 3 "" H 5800 2650 50  0001 C CNN
+	1    5800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5A8D43CB
+P 4450 2850
+AR Path="/5A8C396A/5A8D43CB" Ref="#FLG02"  Part="1" 
+AR Path="/5A8D14B5/5A8D43CB" Ref="#FLG04"  Part="1" 
+F 0 "#FLG04" H 4450 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 4450 3024 50  0000 C CNN
+F 2 "" H 4450 2850 50  0001 C CNN
+F 3 "" H 4450 2850 50  0001 C CNN
+	1    4450 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 2850
+$EndSCHEMATC

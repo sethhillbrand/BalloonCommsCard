@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_USB:FT4232H U?
+L Interface_USB:FT4232H U502
 U 1 1 5A7727AC
 P 5000 3650
-F 0 "U?" H 5000 4000 50  0000 C CNN
+AR Path="/5A78E64E/5A7727AC" Ref="U502"  Part="1" 
+AR Path="/5A78E661/5A7727AC" Ref="U702"  Part="1" 
+F 0 "U702" H 5000 4000 50  0000 C CNN
 F 1 "FT4232H" H 5000 3850 50  0000 C CNN
 F 2 "" H 5000 3650 50  0001 C CNN
 F 3 "" H 5000 3650 50  0001 C CNN
@@ -26,10 +28,12 @@ F 3 "" H 5000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C506
 U 1 1 5A772A13
 P 3500 1150
-F 0 "C?" H 3615 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A772A13" Ref="C506"  Part="1" 
+AR Path="/5A78E661/5A772A13" Ref="C706"  Part="1" 
+F 0 "C706" H 3615 1196 50  0000 L CNN
 F 1 "0u1F" H 3615 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3538 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 3500 1150 50  0001 C CNN
@@ -38,10 +42,12 @@ F 4 "CL10F104ZB8NNNC" H 3500 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C503
 U 1 1 5A772A39
 P 3050 1150
-F 0 "C?" H 3165 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A772A39" Ref="C503"  Part="1" 
+AR Path="/5A78E661/5A772A39" Ref="C703"  Part="1" 
+F 0 "C703" H 3165 1196 50  0000 L CNN
 F 1 "4u7F" H 3165 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3088 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 3050 1150 50  0001 C CNN
@@ -50,10 +56,12 @@ F 4 "CL10A475KQ8NNNC" H 3050 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C501
 U 1 1 5A772A65
 P 2600 1150
-F 0 "C?" H 2715 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A772A65" Ref="C501"  Part="1" 
+AR Path="/5A78E661/5A772A65" Ref="C701"  Part="1" 
+F 0 "C701" H 2715 1196 50  0000 L CNN
 F 1 "4u7F" H 2715 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2638 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2600 1150 50  0001 C CNN
@@ -62,10 +70,12 @@ F 4 "CL10A475KQ8NNNC" H 2600 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C508
 U 1 1 5A772AC3
 P 3950 1150
-F 0 "C?" H 4065 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A772AC3" Ref="C508"  Part="1" 
+AR Path="/5A78E661/5A772AC3" Ref="C708"  Part="1" 
+F 0 "C708" H 4065 1196 50  0000 L CNN
 F 1 "0u1F" H 4065 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3988 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 3950 1150 50  0001 C CNN
@@ -74,10 +84,12 @@ F 4 "CL10F104ZB8NNNC" H 3950 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L501
 U 1 1 5A772E6B
 P 2150 1000
-F 0 "L?" V 1972 1000 50  0000 C CNN
+AR Path="/5A78E64E/5A772E6B" Ref="L501"  Part="1" 
+AR Path="/5A78E661/5A772E6B" Ref="L701"  Part="1" 
+F 0 "L701" V 1972 1000 50  0000 C CNN
 F 1 "4u7H" V 2063 1000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 2150 1000 50  0001 C CNN
 F 3 "http://www.abracon.com/Magnetics/new/AIML-0603.pdf" H 2150 1000 50  0001 C CNN
@@ -86,10 +98,12 @@ F 4 "AIML-0603-4R7K-T" H 2150 1000 50  0001 C CNN "mpn"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L502
 U 1 1 5A772FF6
 P 2150 1300
-F 0 "L?" V 1972 1300 50  0000 C CNN
+AR Path="/5A78E64E/5A772FF6" Ref="L502"  Part="1" 
+AR Path="/5A78E661/5A772FF6" Ref="L702"  Part="1" 
+F 0 "L702" V 1972 1300 50  0000 C CNN
 F 1 "4u7H" V 2063 1300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 2150 1300 50  0001 C CNN
 F 3 "http://www.abracon.com/Magnetics/new/AIML-0603.pdf" H 2150 1300 50  0001 C CNN
@@ -98,10 +112,12 @@ F 4 "AIML-0603-4R7K-T" H 2150 1300 50  0001 C CNN "mpn"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R501
 U 1 1 5A7730ED
 P 2850 3250
-F 0 "R?" H 2780 3204 50  0000 R CNN
+AR Path="/5A78E64E/5A7730ED" Ref="R501"  Part="1" 
+AR Path="/5A78E661/5A7730ED" Ref="R701"  Part="1" 
+F 0 "R701" H 2780 3204 50  0000 R CNN
 F 1 "12k" H 2780 3295 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" V 2780 3250 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 2850 3250 50  0001 C CNN
@@ -110,10 +126,12 @@ F 4 "CRG0603F12K" H 2850 3250 50  0001 C CNN "mpn"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R505
 U 1 1 5A7731D9
 P 3500 3250
-F 0 "R?" V 3600 3250 50  0000 C CNN
+AR Path="/5A78E64E/5A7731D9" Ref="R505"  Part="1" 
+AR Path="/5A78E661/5A7731D9" Ref="R705"  Part="1" 
+F 0 "R705" V 3600 3250 50  0000 C CNN
 F 1 "1k" V 3384 3250 50  0000 C CNN
 F 2 "" V 3430 3250 50  0001 C CNN
 F 3 "~" H 3500 3250 50  0001 C CNN
@@ -121,10 +139,12 @@ F 3 "~" H 3500 3250 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CommsCard:93CxxB U?
+L CommsCard:93CxxB U501
 U 1 1 5A7734DE
 P 1750 5000
-F 0 "U?" H 1750 5467 50  0000 C CNN
+AR Path="/5A78E64E/5A7734DE" Ref="U501"  Part="1" 
+AR Path="/5A78E661/5A7734DE" Ref="U701"  Part="1" 
+F 0 "U701" H 1750 5467 50  0000 C CNN
 F 1 "93C46B" H 1750 5376 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 1650 5000 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 1750 5100 50  0001 C CNN
@@ -133,10 +153,12 @@ F 4 "93C46BT-I/SN" H 1750 5000 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R506
 U 1 1 5A775E34
 P 3500 4150
-F 0 "R?" H 3430 4104 50  0000 R CNN
+AR Path="/5A78E64E/5A775E34" Ref="R506"  Part="1" 
+AR Path="/5A78E661/5A775E34" Ref="R706"  Part="1" 
+F 0 "R706" H 3430 4104 50  0000 R CNN
 F 1 "10k" H 3430 4195 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" V 3430 4150 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 3500 4150 50  0001 C CNN
@@ -145,10 +167,12 @@ F 4 "CRG0603F1K0" H 3500 4150 50  0001 C CNN "mpn"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R504
 U 1 1 5A775F92
 P 3200 4150
-F 0 "R?" H 3130 4104 50  0000 R CNN
+AR Path="/5A78E64E/5A775F92" Ref="R504"  Part="1" 
+AR Path="/5A78E661/5A775F92" Ref="R704"  Part="1" 
+F 0 "R704" H 3130 4104 50  0000 R CNN
 F 1 "10k" H 3130 4195 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" V 3130 4150 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 3200 4150 50  0001 C CNN
@@ -157,10 +181,12 @@ F 4 "CRG0603J10K" H 3200 4150 50  0001 C CNN "mpn"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R502
 U 1 1 5A775FC8
 P 2900 4150
-F 0 "R?" H 2830 4104 50  0000 R CNN
+AR Path="/5A78E64E/5A775FC8" Ref="R502"  Part="1" 
+AR Path="/5A78E661/5A775FC8" Ref="R702"  Part="1" 
+F 0 "R702" H 2830 4104 50  0000 R CNN
 F 1 "10k" H 2830 4195 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603" V 2830 4150 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 2900 4150 50  0001 C CNN
@@ -169,10 +195,12 @@ F 4 "CRG0603J10K" H 2900 4150 50  0001 C CNN "mpn"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R503
 U 1 1 5A776000
 P 3000 4700
-F 0 "R?" V 2900 4700 50  0000 C CNN
+AR Path="/5A78E64E/5A776000" Ref="R503"  Part="1" 
+AR Path="/5A78E661/5A776000" Ref="R703"  Part="1" 
+F 0 "R703" V 2900 4700 50  0000 C CNN
 F 1 "2k2" V 3100 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2930 4700 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-1&DocType=DS&DocLang=English" H 3000 4700 50  0001 C CNN
@@ -181,10 +209,12 @@ F 4 "CRGH0603J2K2" H 3000 4700 50  0001 C CNN "mpn"
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0502
 U 1 1 5A7760FD
 P 1400 5350
-F 0 "#PWR?" H 1400 5100 50  0001 C CNN
+AR Path="/5A78E64E/5A7760FD" Ref="#PWR0502"  Part="1" 
+AR Path="/5A78E661/5A7760FD" Ref="#PWR0702"  Part="1" 
+F 0 "#PWR0702" H 1400 5100 50  0001 C CNN
 F 1 "GND" H 1405 5177 50  0000 C CNN
 F 2 "" H 1400 5350 50  0001 C CNN
 F 3 "" H 1400 5350 50  0001 C CNN
@@ -192,10 +222,12 @@ F 3 "" H 1400 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0511
 U 1 1 5A77612B
 P 4400 6000
-F 0 "#PWR?" H 4400 5750 50  0001 C CNN
+AR Path="/5A78E64E/5A77612B" Ref="#PWR0511"  Part="1" 
+AR Path="/5A78E661/5A77612B" Ref="#PWR0711"  Part="1" 
+F 0 "#PWR0711" H 4400 5750 50  0001 C CNN
 F 1 "GND" H 4405 5827 50  0000 C CNN
 F 2 "" H 4400 6000 50  0001 C CNN
 F 3 "" H 4400 6000 50  0001 C CNN
@@ -203,10 +235,12 @@ F 3 "" H 4400 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CommsCard:Crystal_GND24 Y?
+L CommsCard:Crystal_GND24 Y501
 U 1 1 5A776296
 P 3000 5450
-F 0 "Y?" H 2750 5550 50  0000 L CNN
+AR Path="/5A78E64E/5A776296" Ref="Y501"  Part="1" 
+AR Path="/5A78E661/5A776296" Ref="Y701"  Part="1" 
+F 0 "Y701" H 2750 5550 50  0000 L CNN
 F 1 "ABM8G" H 3150 5550 50  0000 L CNN
 F 2 "Crystals:Crystal_SMD_Abracon_ABM8G-4pin_3.2x2.5mm" H 3000 5450 50  0001 C CNN
 F 3 "https://www.abracon.com/Resonators/ABM8G.pdf" H 3000 5450 50  0001 C CNN
@@ -215,10 +249,12 @@ F 4 "ABM8G-12.000MHZ-4Y-T3" H 3000 5450 50  0001 C CNN "mpn"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C502
 U 1 1 5A776456
 P 2600 5700
-F 0 "C?" H 2715 5746 50  0000 L CNN
+AR Path="/5A78E64E/5A776456" Ref="C502"  Part="1" 
+AR Path="/5A78E661/5A776456" Ref="C702"  Part="1" 
+F 0 "C702" H 2715 5746 50  0000 L CNN
 F 1 "27pF" H 2715 5655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2638 5550 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C270JB8NNNC.jsp" H 2600 5700 50  0001 C CNN
@@ -227,10 +263,12 @@ F 4 "CL10C270JB8NNNC" H 2600 5700 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C505
 U 1 1 5A77659A
 P 3400 5700
-F 0 "C?" H 3515 5746 50  0000 L CNN
+AR Path="/5A78E64E/5A77659A" Ref="C505"  Part="1" 
+AR Path="/5A78E661/5A77659A" Ref="C705"  Part="1" 
+F 0 "C705" H 3515 5746 50  0000 L CNN
 F 1 "27pF" H 3515 5655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3438 5550 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C270JB8NNNC.jsp" H 3400 5700 50  0001 C CNN
@@ -269,10 +307,12 @@ Wire Wire Line
 Wire Wire Line
 	4400 6000 4400 5750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0505
 U 1 1 5A776997
 P 3000 5950
-F 0 "#PWR?" H 3000 5700 50  0001 C CNN
+AR Path="/5A78E64E/5A776997" Ref="#PWR0505"  Part="1" 
+AR Path="/5A78E661/5A776997" Ref="#PWR0705"  Part="1" 
+F 0 "#PWR0705" H 3000 5700 50  0001 C CNN
 F 1 "GND" H 3005 5777 50  0000 C CNN
 F 2 "" H 3000 5950 50  0001 C CNN
 F 3 "" H 3000 5950 50  0001 C CNN
@@ -394,10 +434,12 @@ USB_DM
 Text HLabel 3700 2850 0    50   BiDi ~ 0
 USB_DP
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0504
 U 1 1 5A78FA4C
 P 2850 3450
-F 0 "#PWR?" H 2850 3200 50  0001 C CNN
+AR Path="/5A78E64E/5A78FA4C" Ref="#PWR0504"  Part="1" 
+AR Path="/5A78E661/5A78FA4C" Ref="#PWR0704"  Part="1" 
+F 0 "#PWR0704" H 2850 3200 50  0001 C CNN
 F 1 "GND" H 2855 3277 50  0000 C CNN
 F 2 "" H 2850 3450 50  0001 C CNN
 F 3 "" H 2850 3450 50  0001 C CNN
@@ -411,10 +453,12 @@ Wire Wire Line
 Wire Wire Line
 	3650 3250 3800 3250
 $Comp
-L Device:C C?
+L Device:C C504
 U 1 1 5A794CD6
 P 3050 2150
-F 0 "C?" H 3165 2196 50  0000 L CNN
+AR Path="/5A78E64E/5A794CD6" Ref="C504"  Part="1" 
+AR Path="/5A78E661/5A794CD6" Ref="C704"  Part="1" 
+F 0 "C704" H 3165 2196 50  0000 L CNN
 F 1 "0u1F" H 3165 2105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3088 2000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 3050 2150 50  0001 C CNN
@@ -423,10 +467,12 @@ F 4 "CL10F104ZB8NNNC" H 3050 2150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0510
 U 1 1 5A79780B
 P 3350 2400
-F 0 "#PWR?" H 3350 2150 50  0001 C CNN
+AR Path="/5A78E64E/5A79780B" Ref="#PWR0510"  Part="1" 
+AR Path="/5A78E661/5A79780B" Ref="#PWR0710"  Part="1" 
+F 0 "#PWR0710" H 3350 2150 50  0001 C CNN
 F 1 "GND" H 3355 2227 50  0000 C CNN
 F 2 "" H 3350 2400 50  0001 C CNN
 F 3 "" H 3350 2400 50  0001 C CNN
@@ -436,10 +482,12 @@ $EndComp
 Wire Wire Line
 	3350 2400 3350 2350
 $Comp
-L Device:C C?
+L Device:C C507
 U 1 1 5A79BA81
 P 3600 2150
-F 0 "C?" H 3715 2196 50  0000 L CNN
+AR Path="/5A78E64E/5A79BA81" Ref="C507"  Part="1" 
+AR Path="/5A78E661/5A79BA81" Ref="C707"  Part="1" 
+F 0 "C707" H 3715 2196 50  0000 L CNN
 F 1 "3u3F" H 3715 2105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3638 2000 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 3600 2150 50  0001 C CNN
@@ -461,10 +509,12 @@ Wire Wire Line
 	3600 2350 3600 2300
 Connection ~ 3350 2350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0508
 U 1 1 5A7A5A9C
 P 3300 1400
-F 0 "#PWR?" H 3300 1150 50  0001 C CNN
+AR Path="/5A78E64E/5A7A5A9C" Ref="#PWR0508"  Part="1" 
+AR Path="/5A78E661/5A7A5A9C" Ref="#PWR0708"  Part="1" 
+F 0 "#PWR0708" H 3300 1150 50  0001 C CNN
 F 1 "GND" H 3305 1227 50  0000 C CNN
 F 2 "" H 3300 1400 50  0001 C CNN
 F 3 "" H 3300 1400 50  0001 C CNN
@@ -515,19 +565,6 @@ Connection ~ 4900 1400
 Wire Wire Line
 	4900 1400 4800 1400
 Wire Wire Line
-	4900 1400 4900 1300
-$Comp
-L power:+1V8 #PWR?
-U 1 1 5A7C0519
-P 4900 1300
-F 0 "#PWR?" H 4900 1150 50  0001 C CNN
-F 1 "+1V8" H 4915 1473 50  0000 C CNN
-F 2 "" H 4900 1300 50  0001 C CNN
-F 3 "" H 4900 1300 50  0001 C CNN
-	1    4900 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	5200 1450 5200 1400
 Wire Wire Line
 	5200 1400 5300 1400
@@ -565,10 +602,12 @@ Wire Wire Line
 Wire Wire Line
 	3050 1000 3500 1000
 $Comp
-L Device:C C?
+L Device:C C511
 U 1 1 5A7CFB3D
 P 6950 1150
-F 0 "C?" H 7065 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A7CFB3D" Ref="C511"  Part="1" 
+AR Path="/5A78E661/5A7CFB3D" Ref="C711"  Part="1" 
+F 0 "C711" H 7065 1196 50  0000 L CNN
 F 1 "0u1F" H 7065 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6988 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6950 1150 50  0001 C CNN
@@ -577,10 +616,12 @@ F 4 "CL10F104ZB8NNNC" H 6950 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C512
 U 1 1 5A7CFB44
 P 7400 1150
-F 0 "C?" H 7515 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A7CFB44" Ref="C512"  Part="1" 
+AR Path="/5A78E661/5A7CFB44" Ref="C712"  Part="1" 
+F 0 "C712" H 7515 1196 50  0000 L CNN
 F 1 "0u1F" H 7515 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7438 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 7400 1150 50  0001 C CNN
@@ -589,10 +630,12 @@ F 4 "CL10F104ZB8NNNC" H 7400 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C509
 U 1 1 5A7D613F
 P 6050 1150
-F 0 "C?" H 6165 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A7D613F" Ref="C509"  Part="1" 
+AR Path="/5A78E661/5A7D613F" Ref="C709"  Part="1" 
+F 0 "C709" H 6165 1196 50  0000 L CNN
 F 1 "0u1F" H 6165 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6088 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6050 1150 50  0001 C CNN
@@ -601,10 +644,12 @@ F 4 "CL10F104ZB8NNNC" H 6050 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C510
 U 1 1 5A7D6146
 P 6500 1150
-F 0 "C?" H 6615 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A7D6146" Ref="C510"  Part="1" 
+AR Path="/5A78E661/5A7D6146" Ref="C710"  Part="1" 
+F 0 "C710" H 6615 1196 50  0000 L CNN
 F 1 "0u1F" H 6615 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6538 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6500 1150 50  0001 C CNN
@@ -613,10 +658,12 @@ F 4 "CL10F104ZB8NNNC" H 6500 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C514
 U 1 1 5A7DCA65
 P 8300 1150
-F 0 "C?" H 8415 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A7DCA65" Ref="C514"  Part="1" 
+AR Path="/5A78E661/5A7DCA65" Ref="C714"  Part="1" 
+F 0 "C714" H 8415 1196 50  0000 L CNN
 F 1 "0u1F" H 8415 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8338 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 8300 1150 50  0001 C CNN
@@ -625,10 +672,12 @@ F 4 "CL10F104ZB8NNNC" H 8300 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C515
 U 1 1 5A7DCA6C
 P 8750 1150
-F 0 "C?" H 8865 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A7DCA6C" Ref="C515"  Part="1" 
+AR Path="/5A78E661/5A7DCA6C" Ref="C715"  Part="1" 
+F 0 "C715" H 8865 1196 50  0000 L CNN
 F 1 "0u1F" H 8865 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8788 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 8750 1150 50  0001 C CNN
@@ -637,10 +686,12 @@ F 4 "CL10F104ZB8NNNC" H 8750 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C513
 U 1 1 5A7DCA73
 P 7850 1150
-F 0 "C?" H 7965 1196 50  0000 L CNN
+AR Path="/5A78E64E/5A7DCA73" Ref="C513"  Part="1" 
+AR Path="/5A78E661/5A7DCA73" Ref="C713"  Part="1" 
+F 0 "C713" H 7965 1196 50  0000 L CNN
 F 1 "0u1F" H 7965 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7888 1000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 7850 1150 50  0001 C CNN
@@ -649,10 +700,12 @@ F 4 "CL10F104ZB8NNNC" H 7850 1150 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0517
 U 1 1 5A7DFDD9
 P 7400 1500
-F 0 "#PWR?" H 7400 1250 50  0001 C CNN
+AR Path="/5A78E64E/5A7DFDD9" Ref="#PWR0517"  Part="1" 
+AR Path="/5A78E661/5A7DFDD9" Ref="#PWR0717"  Part="1" 
+F 0 "#PWR0717" H 7400 1250 50  0001 C CNN
 F 1 "GND" H 7405 1327 50  0000 C CNN
 F 2 "" H 7400 1500 50  0001 C CNN
 F 3 "" H 7400 1500 50  0001 C CNN
@@ -724,19 +777,6 @@ Wire Wire Line
 Connection ~ 8300 950 
 Wire Wire Line
 	8300 950  8750 950 
-Wire Wire Line
-	8300 950  8300 850 
-$Comp
-L power:+1V8 #PWR?
-U 1 1 5A82D1E9
-P 8300 850
-F 0 "#PWR?" H 8300 700 50  0001 C CNN
-F 1 "+1V8" H 8315 1023 50  0000 C CNN
-F 2 "" H 8300 850 50  0001 C CNN
-F 3 "" H 8300 850 50  0001 C CNN
-	1    8300 850 
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6200 1950
 NoConn ~ 6200 2050
 NoConn ~ 6200 2150
@@ -778,10 +818,12 @@ COMM1_TX
 Text HLabel 6250 4550 2    50   Output ~ 0
 COMM1_RX
 $Comp
-L Device:R R?
+L Device:R R507
 U 1 1 5A865D82
 P 6500 2950
-F 0 "R?" V 6400 2950 50  0000 C CNN
+AR Path="/5A78E64E/5A865D82" Ref="R507"  Part="1" 
+AR Path="/5A78E661/5A865D82" Ref="R707"  Part="1" 
+F 0 "R707" V 6400 2950 50  0000 C CNN
 F 1 "10k" V 6600 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6430 2950 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6500 2950 50  0001 C CNN
@@ -790,10 +832,12 @@ F 4 "CRG0603F1K0" H 6500 2950 50  0001 C CNN "mpn"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R508
 U 1 1 5A865F28
 P 6500 3850
-F 0 "R?" V 6400 3850 50  0000 C CNN
+AR Path="/5A78E64E/5A865F28" Ref="R508"  Part="1" 
+AR Path="/5A78E661/5A865F28" Ref="R708"  Part="1" 
+F 0 "R708" V 6400 3850 50  0000 C CNN
 F 1 "10k" V 6600 3850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6430 3850 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6500 3850 50  0001 C CNN
@@ -802,10 +846,12 @@ F 4 "CRG0603F1K0" H 6500 3850 50  0001 C CNN "mpn"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R509
 U 1 1 5A865F94
 P 6500 4750
-F 0 "R?" V 6400 4750 50  0000 C CNN
+AR Path="/5A78E64E/5A865F94" Ref="R509"  Part="1" 
+AR Path="/5A78E661/5A865F94" Ref="R709"  Part="1" 
+F 0 "R709" V 6400 4750 50  0000 C CNN
 F 1 "10k" V 6600 4750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6430 4750 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6500 4750 50  0001 C CNN
@@ -840,10 +886,12 @@ Wire Wire Line
 Wire Wire Line
 	6200 5150 6800 5150
 $Comp
-L Device:R R?
+L Device:R R510
 U 1 1 5A8C992C
 P 6700 5000
-F 0 "R?" V 6600 5000 50  0000 C CNN
+AR Path="/5A78E64E/5A8C992C" Ref="R510"  Part="1" 
+AR Path="/5A78E661/5A8C992C" Ref="R710"  Part="1" 
+F 0 "R710" V 6600 5000 50  0000 C CNN
 F 1 "10k" V 6800 5000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6630 5000 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6700 5000 50  0001 C CNN
@@ -852,10 +900,12 @@ F 4 "CRG0603F1K0" H 6700 5000 50  0001 C CNN "mpn"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R511
 U 1 1 5A8C9984
 P 6950 5150
-F 0 "R?" V 6850 5150 50  0000 C CNN
+AR Path="/5A78E64E/5A8C9984" Ref="R511"  Part="1" 
+AR Path="/5A78E661/5A8C9984" Ref="R711"  Part="1" 
+F 0 "R711" V 6850 5150 50  0000 C CNN
 F 1 "10k" V 7050 5150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6880 5150 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6950 5150 50  0001 C CNN
@@ -874,22 +924,12 @@ WD_TICKLE
 Wire Wire Line
 	6850 5000 7100 5000
 $Comp
-L power:+1V8 #PWR?
-U 1 1 5A808A5A
-P 3600 1950
-F 0 "#PWR?" H 3600 1800 50  0001 C CNN
-F 1 "+1V8" H 3615 2123 50  0000 C CNN
-F 2 "" H 3600 1950 50  0001 C CNN
-F 3 "" H 3600 1950 50  0001 C CNN
-	1    3600 1950
-	1    0    0    -1  
-$EndComp
-Connection ~ 3600 1950
-$Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0506
 U 1 1 5A808AF8
 P 3050 1700
-F 0 "#PWR?" H 3050 1550 50  0001 C CNN
+AR Path="/5A78E64E/5A808AF8" Ref="#PWR0506"  Part="1" 
+AR Path="/5A78E661/5A808AF8" Ref="#PWR0706"  Part="1" 
+F 0 "#PWR0706" H 3050 1550 50  0001 C CNN
 F 1 "+3.3V" H 3065 1873 50  0000 C CNN
 F 2 "" H 3050 1700 50  0001 C CNN
 F 3 "" H 3050 1700 50  0001 C CNN
@@ -897,10 +937,12 @@ F 3 "" H 3050 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0512
 U 1 1 5A80E9F1
 P 5350 1300
-F 0 "#PWR?" H 5350 1150 50  0001 C CNN
+AR Path="/5A78E64E/5A80E9F1" Ref="#PWR0512"  Part="1" 
+AR Path="/5A78E661/5A80E9F1" Ref="#PWR0712"  Part="1" 
+F 0 "#PWR0712" H 5350 1150 50  0001 C CNN
 F 1 "+3.3V" H 5365 1473 50  0000 C CNN
 F 2 "" H 5350 1300 50  0001 C CNN
 F 3 "" H 5350 1300 50  0001 C CNN
@@ -908,10 +950,12 @@ F 3 "" H 5350 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0503
 U 1 1 5A80EA7D
 P 1700 1150
-F 0 "#PWR?" H 1700 1000 50  0001 C CNN
+AR Path="/5A78E64E/5A80EA7D" Ref="#PWR0503"  Part="1" 
+AR Path="/5A78E661/5A80EA7D" Ref="#PWR0703"  Part="1" 
+F 0 "#PWR0703" H 1700 1000 50  0001 C CNN
 F 1 "+3.3V" H 1715 1323 50  0000 C CNN
 F 2 "" H 1700 1150 50  0001 C CNN
 F 3 "" H 1700 1150 50  0001 C CNN
@@ -919,10 +963,12 @@ F 3 "" H 1700 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0513
 U 1 1 5A814AA2
 P 6750 850
-F 0 "#PWR?" H 6750 700 50  0001 C CNN
+AR Path="/5A78E64E/5A814AA2" Ref="#PWR0513"  Part="1" 
+AR Path="/5A78E661/5A814AA2" Ref="#PWR0713"  Part="1" 
+F 0 "#PWR0713" H 6750 700 50  0001 C CNN
 F 1 "+3.3V" H 6765 1023 50  0000 C CNN
 F 2 "" H 6750 850 50  0001 C CNN
 F 3 "" H 6750 850 50  0001 C CNN
@@ -930,10 +976,12 @@ F 3 "" H 6750 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0516
 U 1 1 5A81AD3D
 P 6900 4750
-F 0 "#PWR?" H 6900 4600 50  0001 C CNN
+AR Path="/5A78E64E/5A81AD3D" Ref="#PWR0516"  Part="1" 
+AR Path="/5A78E661/5A81AD3D" Ref="#PWR0716"  Part="1" 
+F 0 "#PWR0716" H 6900 4600 50  0001 C CNN
 F 1 "+3.3V" H 6915 4923 50  0000 C CNN
 F 2 "" H 6900 4750 50  0001 C CNN
 F 3 "" H 6900 4750 50  0001 C CNN
@@ -941,10 +989,12 @@ F 3 "" H 6900 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0515
 U 1 1 5A820A99
 P 6900 3850
-F 0 "#PWR?" H 6900 3700 50  0001 C CNN
+AR Path="/5A78E64E/5A820A99" Ref="#PWR0515"  Part="1" 
+AR Path="/5A78E661/5A820A99" Ref="#PWR0715"  Part="1" 
+F 0 "#PWR0715" H 6900 3700 50  0001 C CNN
 F 1 "+3.3V" H 6915 4023 50  0000 C CNN
 F 2 "" H 6900 3850 50  0001 C CNN
 F 3 "" H 6900 3850 50  0001 C CNN
@@ -952,10 +1002,12 @@ F 3 "" H 6900 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0514
 U 1 1 5A8267F5
 P 6900 2950
-F 0 "#PWR?" H 6900 2800 50  0001 C CNN
+AR Path="/5A78E64E/5A8267F5" Ref="#PWR0514"  Part="1" 
+AR Path="/5A78E661/5A8267F5" Ref="#PWR0714"  Part="1" 
+F 0 "#PWR0714" H 6900 2800 50  0001 C CNN
 F 1 "+3.3V" H 6915 3123 50  0000 C CNN
 F 2 "" H 6900 2950 50  0001 C CNN
 F 3 "" H 6900 2950 50  0001 C CNN
@@ -963,10 +1015,12 @@ F 3 "" H 6900 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0507
 U 1 1 5A8409AC
 P 3200 3750
-F 0 "#PWR?" H 3200 3600 50  0001 C CNN
+AR Path="/5A78E64E/5A8409AC" Ref="#PWR0507"  Part="1" 
+AR Path="/5A78E661/5A8409AC" Ref="#PWR0707"  Part="1" 
+F 0 "#PWR0707" H 3200 3600 50  0001 C CNN
 F 1 "+3.3V" H 3215 3923 50  0000 C CNN
 F 2 "" H 3200 3750 50  0001 C CNN
 F 3 "" H 3200 3750 50  0001 C CNN
@@ -974,10 +1028,12 @@ F 3 "" H 3200 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0501
 U 1 1 5A846AEB
 P 1350 4800
-F 0 "#PWR?" H 1350 4650 50  0001 C CNN
+AR Path="/5A78E64E/5A846AEB" Ref="#PWR0501"  Part="1" 
+AR Path="/5A78E661/5A846AEB" Ref="#PWR0701"  Part="1" 
+F 0 "#PWR0701" H 1350 4650 50  0001 C CNN
 F 1 "+5V" H 1365 4973 50  0000 C CNN
 F 2 "" H 1350 4800 50  0001 C CNN
 F 3 "" H 1350 4800 50  0001 C CNN
@@ -985,10 +1041,12 @@ F 3 "" H 1350 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0509
 U 1 1 5A848044
 P 3300 3250
-F 0 "#PWR?" H 3300 3100 50  0001 C CNN
+AR Path="/5A78E64E/5A848044" Ref="#PWR0509"  Part="1" 
+AR Path="/5A78E661/5A848044" Ref="#PWR0709"  Part="1" 
+F 0 "#PWR0709" H 3300 3100 50  0001 C CNN
 F 1 "+3.3V" H 3315 3423 50  0000 C CNN
 F 2 "" H 3300 3250 50  0001 C CNN
 F 3 "" H 3300 3250 50  0001 C CNN
@@ -1025,10 +1083,12 @@ Wire Wire Line
 Wire Wire Line
 	6200 1850 8100 1850
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J501
 U 1 1 5A806EE1
 P 9650 1800
-F 0 "J?" H 9730 1842 50  0000 L CNN
+AR Path="/5A78E64E/5A806EE1" Ref="J501"  Part="1" 
+AR Path="/5A78E661/5A806EE1" Ref="J701"  Part="1" 
+F 0 "J701" H 9730 1842 50  0000 L CNN
 F 1 "Conn_01x03" H 9730 1751 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9650 1800 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 9650 1800 50  0001 C CNN
@@ -1052,4 +1112,27 @@ Wire Wire Line
 	9450 1800 10400 1800
 Text HLabel 10400 1800 2    50   Output ~ 0
 LOS
+$Comp
+L power:PWR_FLAG #FLG0501
+U 1 1 5A8B20A8
+P 2600 1000
+AR Path="/5A78E64E/5A8B20A8" Ref="#FLG0501"  Part="1" 
+AR Path="/5A78E661/5A8B20A8" Ref="#FLG0701"  Part="1" 
+F 0 "#FLG0701" H 2600 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 2600 1174 50  0000 C CNN
+F 2 "" H 2600 1000 50  0001 C CNN
+F 3 "" H 2600 1000 50  0001 C CNN
+	1    2600 1000
+	1    0    0    -1  
+$EndComp
+Text Label 3600 1950 2    50   ~ 0
+1V8
+Text Label 4900 1150 3    50   ~ 0
+1V8
+Wire Wire Line
+	4900 1150 4900 1400
+Wire Wire Line
+	8300 750  8300 950 
+Text Label 8300 750  3    50   ~ 0
+1V8
 $EndSCHEMATC

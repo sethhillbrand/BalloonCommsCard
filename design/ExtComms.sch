@@ -206,31 +206,10 @@ U 1 1 5A91EBAB
 P 4100 1600
 F 0 "J301" H 4279 1603 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 4279 1512 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 1600 50  0001 C CNN
-F 3 "" H 4100 1600 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 1600 50  0001 C CNN
+F 3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf" H 4100 1600 50  0001 C CNN
+F 4 "A-DF 09 A/KG-T2S" H 4100 1600 50  0001 C CNN "mpn"
 	1    4100 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Specialized:DB9_Male_MountingHoles J302
-U 1 1 5A91ED41
-P 4100 2900
-F 0 "J302" H 4279 2903 50  0000 L CNN
-F 1 "DB9_Male_MountingHoles" H 4279 2812 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 2900 50  0001 C CNN
-F 3 "" H 4100 2900 50  0001 C CNN
-	1    4100 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Specialized:DB9_Male_MountingHoles J303
-U 1 1 5A91EDCB
-P 4100 4100
-F 0 "J303" H 4279 4103 50  0000 L CNN
-F 1 "DB9_Male_MountingHoles" H 4279 4012 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 4100 50  0001 C CNN
-F 3 "" H 4100 4100 50  0001 C CNN
-	1    4100 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -336,6 +315,7 @@ F 0 "U303" H 8050 5800 50  0000 C CNN
 F 1 "TPS28225DRBT" H 8150 5700 50  0000 C CNN
 F 2 "Package_SON:Texas_S-PVSON-N8" H 8700 4150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps28225.pdf" H 8700 4150 50  0001 C CNN
+F 4 "TPS28225DRBT" H 0   0   50  0001 C CNN "mpn"
 	1    7900 5150
 	1    0    0    -1  
 $EndComp
@@ -347,8 +327,9 @@ U 1 1 5A7EC127
 P 7900 2950
 F 0 "U302" H 8050 3550 50  0000 C CNN
 F 1 "MAX3485" H 8150 3450 50  0000 C CNN
-F 2 "" H 7900 2250 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7900 2250 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 7900 3000 50  0001 C CNN
+F 4 "MAX3485AEASA+" H 7900 2950 50  0001 C CNN "mpn"
 	1    7900 2950
 	1    0    0    -1  
 $EndComp
@@ -394,8 +375,9 @@ U 1 1 5A7F6B83
 P 10400 5150
 F 0 "J305" H 10499 5126 50  0000 L CNN
 F 1 "Conn_Coaxial" H 10499 5035 50  0000 L CNN
-F 2 "" H 10400 5150 50  0001 C CNN
-F 3 "" H 10400 5150 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 10400 5150 50  0001 C CNN
+F 3 "http://www.molex.com/pdm_docs/sd/732512120_sd.pdf" H 10400 5150 50  0001 C CNN
+F 4 "0732512120" H 10400 5150 50  0001 C CNN "mpn"
 	1    10400 5150
 	1    0    0    -1  
 $EndComp
@@ -444,6 +426,7 @@ F 0 "Q301" H 9505 4746 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 9505 4655 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9500 4800 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN2056U.pdf" H 9300 4700 50  0001 C CNN
+F 4 "DMN2056U-7" H 0   0   50  0001 C CNN "mpn"
 	1    9300 4700
 	1    0    0    -1  
 $EndComp
@@ -455,6 +438,7 @@ F 0 "Q302" H 9505 5746 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 9505 5655 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9500 5800 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN2056U.pdf" H 9300 5700 50  0001 C CNN
+F 4 "DMN2056U-7" H 0   0   50  0001 C CNN "mpn"
 	1    9300 5700
 	1    0    0    -1  
 $EndComp
@@ -465,18 +449,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 5150 9400 5500
 Connection ~ 9400 5150
-$Comp
-L Device:R_Small R305
-U 1 1 5A805C94
-P 9000 5500
-F 0 "R305" H 9059 5546 50  0000 L CNN
-F 1 "0R" H 9059 5455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 9000 5500 50  0001 C CNN
-F 3 "~" H 9000 5500 50  0001 C CNN
-F 4 "~" H 9000 5500 50  0001 C CNN "mpn"
-	1    9000 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 5000 9000 5000
 Wire Wire Line
@@ -497,9 +469,9 @@ U 1 1 5A80B24F
 P 9000 4900
 F 0 "R304" H 9059 4946 50  0000 L CNN
 F 1 "0R" H 9059 4855 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 9000 4900 50  0001 C CNN
-F 3 "~" H 9000 4900 50  0001 C CNN
-F 4 "~" H 9000 4900 50  0001 C CNN "mpn"
+F 2 "Resistor_SMD:R_1210_3225Metric" H 9000 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9000 4900 50  0001 C CNN
+F 4 "RMCF1210ZT0R00" H 9000 4900 50  0001 C CNN "mpn"
 	1    9000 4900
 	1    0    0    -1  
 $EndComp
@@ -950,5 +922,41 @@ F 2 "" H 4100 6650 50  0001 C CNN
 F 3 "" H 4100 6650 50  0001 C CNN
 	1    4100 6650
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:DB9_Male_MountingHoles J302
+U 1 1 5A88CCB2
+P 4100 2900
+F 0 "J302" H 4279 2903 50  0000 L CNN
+F 1 "DB9_Male_MountingHoles" H 4279 2812 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 2900 50  0001 C CNN
+F 3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf" H 4100 2900 50  0001 C CNN
+F 4 "A-DF 09 A/KG-T2S" H 4100 2900 50  0001 C CNN "mpn"
+	1    4100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:DB9_Male_MountingHoles J303
+U 1 1 5A88CD12
+P 4100 4100
+F 0 "J303" H 4279 4103 50  0000 L CNN
+F 1 "DB9_Male_MountingHoles" H 4279 4012 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4100 4100 50  0001 C CNN
+F 3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf" H 4100 4100 50  0001 C CNN
+F 4 "A-DF 09 A/KG-T2S" H 4100 4100 50  0001 C CNN "mpn"
+	1    4100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R305
+U 1 1 5A88D71F
+P 9000 5500
+F 0 "R305" H 9059 5546 50  0000 L CNN
+F 1 "0R" H 9059 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 9000 5500 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9000 5500 50  0001 C CNN
+F 4 "RMCF1210ZT0R00" H 9000 5500 50  0001 C CNN "mpn"
+	1    9000 5500
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

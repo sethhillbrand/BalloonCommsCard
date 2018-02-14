@@ -15,15 +15,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_USB:FT4232H U502
+L CommsCard:FT4232H-56Q U502
 U 1 1 5A7727AC
 P 5000 3650
 AR Path="/5A78E64E/5A7727AC" Ref="U502"  Part="1" 
 AR Path="/5A78E661/5A7727AC" Ref="U702"  Part="1" 
 F 0 "U702" H 5000 4000 50  0000 C CNN
 F 1 "FT4232H" H 5000 3850 50  0000 C CNN
-F 2 "" H 5000 3650 50  0001 C CNN
-F 3 "" H 5000 3650 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm" H 5000 3650 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 5000 3650 50  0001 C CNN
+F 4 "FT4232H-56Q-TRAY" H 5000 3650 50  0001 C CNN "mpn"
 	1    5000 3650
 	1    0    0    -1  
 $EndComp
@@ -124,19 +125,6 @@ F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&D
 F 4 "CRG0603F12K" H 2850 3250 50  0001 C CNN "mpn"
 	1    2850 3250
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R505
-U 1 1 5A7731D9
-P 3500 3250
-AR Path="/5A78E64E/5A7731D9" Ref="R505"  Part="1" 
-AR Path="/5A78E661/5A7731D9" Ref="R705"  Part="1" 
-F 0 "R705" V 3600 3250 50  0000 C CNN
-F 1 "1k" V 3384 3250 50  0000 C CNN
-F 2 "" V 3430 3250 50  0001 C CNN
-F 3 "~" H 3500 3250 50  0001 C CNN
-	1    3500 3250
-	0    -1   1    0   
 $EndComp
 $Comp
 L CommsCard:93CxxB U501
@@ -281,29 +269,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 5750 4400 5750
 Connection ~ 4400 5750
-Wire Wire Line
-	4400 5750 4600 5750
-Connection ~ 4600 5750
-Wire Wire Line
-	4600 5750 4700 5750
 Connection ~ 4700 5750
-Wire Wire Line
-	4700 5750 4800 5750
-Connection ~ 4800 5750
-Wire Wire Line
-	4800 5750 4900 5750
 Connection ~ 4900 5750
-Wire Wire Line
-	4900 5750 5000 5750
-Connection ~ 5000 5750
-Wire Wire Line
-	5000 5750 5100 5750
 Connection ~ 5100 5750
-Wire Wire Line
-	5100 5750 5200 5750
-Connection ~ 5200 5750
-Wire Wire Line
-	5200 5750 5300 5750
 Wire Wire Line
 	4400 6000 4400 5750
 $Comp
@@ -554,10 +522,6 @@ Connection ~ 3300 1300
 Wire Wire Line
 	3300 1300 3050 1300
 Wire Wire Line
-	5000 1450 5000 1400
-Wire Wire Line
-	5000 1400 4900 1400
-Wire Wire Line
 	4800 1400 4800 1450
 Wire Wire Line
 	4900 1450 4900 1400
@@ -569,22 +533,14 @@ Wire Wire Line
 Wire Wire Line
 	5200 1400 5300 1400
 Wire Wire Line
-	5500 1400 5500 1450
-Wire Wire Line
 	5400 1450 5400 1400
-Connection ~ 5400 1400
-Wire Wire Line
-	5400 1400 5500 1400
 Wire Wire Line
 	5300 1400 5300 1450
 Connection ~ 5300 1400
 Wire Wire Line
-	5300 1400 5350 1400
+	5300 1400 5300 1300
 Wire Wire Line
-	5350 1400 5350 1300
-Connection ~ 5350 1400
-Wire Wire Line
-	5350 1400 5400 1400
+	5300 1400 5400 1400
 Connection ~ 3950 1300
 Wire Wire Line
 	3500 1300 3300 1300
@@ -939,14 +895,14 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0512
 U 1 1 5A80E9F1
-P 5350 1300
+P 5300 1300
 AR Path="/5A78E64E/5A80E9F1" Ref="#PWR0512"  Part="1" 
 AR Path="/5A78E661/5A80E9F1" Ref="#PWR0712"  Part="1" 
-F 0 "#PWR0712" H 5350 1150 50  0001 C CNN
-F 1 "+3.3V" H 5365 1473 50  0000 C CNN
-F 2 "" H 5350 1300 50  0001 C CNN
-F 3 "" H 5350 1300 50  0001 C CNN
-	1    5350 1300
+F 0 "#PWR0712" H 5300 1150 50  0001 C CNN
+F 1 "+3.3V" H 5315 1473 50  0000 C CNN
+F 2 "" H 5300 1300 50  0001 C CNN
+F 3 "" H 5300 1300 50  0001 C CNN
+	1    5300 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1149,9 +1105,9 @@ AR Path="/5A78E64E/5A80E08A" Ref="U503"  Part="1"
 AR Path="/5A78E661/5A80E08A" Ref="U703"  Part="1" 
 F 0 "U703" H 9050 4400 50  0000 C CNN
 F 1 "74HC595" H 9050 4300 50  0000 C CNN
-F 2 "ResistorArray:R_Array_Convex_8x0402" H 8850 3700 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 8850 3700 50  0001 C CNN
-F 4 "~" H 8850 3700 50  0001 C CNN "mpn"
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8850 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 8850 3700 50  0001 C CNN
+F 4 "74HC595PW,118" H 8850 3700 50  0001 C CNN "mpn"
 	1    8850 3700
 	1    0    0    -1  
 $EndComp
@@ -1366,4 +1322,26 @@ Text Label 8050 3800 0    50   ~ 0
 EECS
 Wire Wire Line
 	7850 3900 8300 3900
+Wire Wire Line
+	4400 5750 4700 5750
+Wire Wire Line
+	4700 5750 4900 5750
+Wire Wire Line
+	4900 5750 5100 5750
+Wire Wire Line
+	5100 5750 5300 5750
+$Comp
+L Device:R R505
+U 1 1 5A88BF7E
+P 3500 3250
+AR Path="/5A78E64E/5A88BF7E" Ref="R505"  Part="1" 
+AR Path="/5A78E661/5A88BF7E" Ref="R705"  Part="1" 
+F 0 "R705" V 3400 3250 50  0000 C CNN
+F 1 "10k" V 3600 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3430 3250 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 3500 3250 50  0001 C CNN
+F 4 "CRG0603F1K0" H 3500 3250 50  0001 C CNN "mpn"
+	1    3500 3250
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC

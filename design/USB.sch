@@ -24,6 +24,7 @@ F 0 "U1001" H 5200 4028 50  0000 C CNN
 F 1 "ADUM3160" H 5200 3937 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 5200 2550 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf" H 5000 3250 50  0001 C CNN
+F 4 "ADUM3160BRWZ-RL" H 0   0   50  0001 C CNN "mpn"
 	1    5200 3250
 	1    0    0    -1  
 $EndComp

@@ -31,71 +31,71 @@ $EndComp
 $Comp
 L Device:C C506
 U 1 1 5A772A13
-P 3500 1150
+P 2500 1550
 AR Path="/5A78E64E/5A772A13" Ref="C506"  Part="1" 
 AR Path="/5A78E661/5A772A13" Ref="C706"  Part="1" 
-F 0 "C506" H 3615 1196 50  0000 L CNN
-F 1 "0u1F" H 3615 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 1000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 3500 1150 50  0001 C CNN
-F 4 "CL10B104KO8WPNC" H 3500 1150 50  0001 C CNN "mpn"
-	1    3500 1150
+F 0 "C506" H 2615 1596 50  0000 L CNN
+F 1 "0u1F" H 2615 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 1400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 2500 1550 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 2500 1550 50  0001 C CNN "mpn"
+	1    2500 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C503
 U 1 1 5A772A39
-P 3050 1150
+P 1900 1200
 AR Path="/5A78E64E/5A772A39" Ref="C503"  Part="1" 
 AR Path="/5A78E661/5A772A39" Ref="C703"  Part="1" 
-F 0 "C503" H 3165 1196 50  0000 L CNN
-F 1 "4u7F" H 3165 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3088 1000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 3050 1150 50  0001 C CNN
-F 4 "CL10A475KQ8NNNC" H 3050 1150 50  0001 C CNN "mpn"
-	1    3050 1150
+F 0 "C503" H 2015 1246 50  0000 L CNN
+F 1 "4u7F" H 2015 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1938 1050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 1900 1200 50  0001 C CNN
+F 4 "CL10A475KQ8NNNC" H 1900 1200 50  0001 C CNN "mpn"
+	1    1900 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C501
 U 1 1 5A772A65
-P 2600 1150
+P 2050 1550
 AR Path="/5A78E64E/5A772A65" Ref="C501"  Part="1" 
 AR Path="/5A78E661/5A772A65" Ref="C701"  Part="1" 
-F 0 "C501" H 2715 1196 50  0000 L CNN
-F 1 "4u7F" H 2715 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2638 1000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2600 1150 50  0001 C CNN
-F 4 "CL10A475KQ8NNNC" H 2600 1150 50  0001 C CNN "mpn"
-	1    2600 1150
+F 0 "C501" H 2165 1596 50  0000 L CNN
+F 1 "4u7F" H 2165 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 1400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 2050 1550 50  0001 C CNN
+F 4 "CL10A475KQ8NNNC" H 2050 1550 50  0001 C CNN "mpn"
+	1    2050 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C508
 U 1 1 5A772AC3
-P 3950 1150
+P 2400 1200
 AR Path="/5A78E64E/5A772AC3" Ref="C508"  Part="1" 
 AR Path="/5A78E661/5A772AC3" Ref="C708"  Part="1" 
-F 0 "C508" H 4065 1196 50  0000 L CNN
-F 1 "0u1F" H 4065 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3988 1000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 3950 1150 50  0001 C CNN
-F 4 "CL10B104KO8WPNC" H 3950 1150 50  0001 C CNN "mpn"
-	1    3950 1150
+F 0 "C508" H 2515 1246 50  0000 L CNN
+F 1 "0u1F" H 2515 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2438 1050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 2400 1200 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 2400 1200 50  0001 C CNN "mpn"
+	1    2400 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:L_Core_Iron L502
 U 1 1 5A772FF6
-P 2150 1300
+P 1600 1400
 AR Path="/5A78E64E/5A772FF6" Ref="L502"  Part="1" 
 AR Path="/5A78E661/5A772FF6" Ref="L702"  Part="1" 
-F 0 "L502" V 1972 1300 50  0000 C CNN
-F 1 "4u7H" V 2063 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 2150 1300 50  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe322512c.ashx" H 2150 1300 50  0001 C CNN
-F 4 "1277AS-H-4R7M=P2" H 2150 1300 50  0001 C CNN "mpn"
-	1    2150 1300
+F 0 "L502" V 1422 1400 50  0000 C CNN
+F 1 "4u7H" V 1513 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 1600 1400 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe322512c.ashx" H 1600 1400 50  0001 C CNN
+F 4 "1277AS-H-4R7M=P2" H 1600 1400 50  0001 C CNN "mpn"
+	1    1600 1400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -350,48 +350,34 @@ Connection ~ 3350 2350
 $Comp
 L power:GND #PWR0508
 U 1 1 5A7A5A9C
-P 3300 1400
+P 2050 1850
 AR Path="/5A78E64E/5A7A5A9C" Ref="#PWR0508"  Part="1" 
 AR Path="/5A78E661/5A7A5A9C" Ref="#PWR0708"  Part="1" 
-F 0 "#PWR0508" H 3300 1150 50  0001 C CNN
-F 1 "GND" H 3305 1227 50  0000 C CNN
-F 2 "" H 3300 1400 50  0001 C CNN
-F 3 "" H 3300 1400 50  0001 C CNN
-	1    3300 1400
+F 0 "#PWR0508" H 2050 1600 50  0001 C CNN
+F 1 "GND" H 2055 1677 50  0000 C CNN
+F 2 "" H 2050 1850 50  0001 C CNN
+F 3 "" H 2050 1850 50  0001 C CNN
+	1    2050 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 1400 3300 1300
+	1150 1200 1400 1200
 Wire Wire Line
-	1700 1150 1950 1150
+	1450 1400 1400 1400
 Wire Wire Line
-	2000 1300 1950 1300
+	1400 1400 1400 1200
 Wire Wire Line
-	1950 1300 1950 1150
+	1400 1000 1450 1000
+Connection ~ 1400 1200
 Wire Wire Line
-	1950 1000 2000 1000
-Connection ~ 1950 1150
+	1400 1200 1400 1000
 Wire Wire Line
-	1950 1150 1950 1000
-Wire Wire Line
-	2300 1000 2600 1000
+	1750 1000 1900 1000
 Wire Wire Line
 	4600 1000 4600 1450
-Connection ~ 2600 1000
+Connection ~ 2400 1000
 Wire Wire Line
-	2600 1000 3050 1000
-Connection ~ 3050 1000
-Wire Wire Line
-	4500 1450 4500 1300
-Connection ~ 2600 1300
-Wire Wire Line
-	2600 1300 2300 1300
-Connection ~ 3050 1300
-Wire Wire Line
-	3050 1300 2600 1300
-Connection ~ 3300 1300
-Wire Wire Line
-	3300 1300 3050 1300
+	4500 1450 4500 1400
 Wire Wire Line
 	4800 1400 4800 1450
 Wire Wire Line
@@ -412,22 +398,6 @@ Wire Wire Line
 	5300 1400 5300 1300
 Wire Wire Line
 	5300 1400 5400 1400
-Connection ~ 3950 1300
-Wire Wire Line
-	3500 1300 3300 1300
-Connection ~ 3500 1300
-Wire Wire Line
-	3950 1300 3500 1300
-Wire Wire Line
-	4500 1300 3950 1300
-Wire Wire Line
-	3950 1000 4600 1000
-Connection ~ 3950 1000
-Connection ~ 3500 1000
-Wire Wire Line
-	3500 1000 3950 1000
-Wire Wire Line
-	3050 1000 3500 1000
 $Comp
 L Device:C C511
 U 1 1 5A7CFB3D
@@ -779,14 +749,14 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0503
 U 1 1 5A80EA7D
-P 1700 1150
+P 1150 1200
 AR Path="/5A78E64E/5A80EA7D" Ref="#PWR0503"  Part="1" 
 AR Path="/5A78E661/5A80EA7D" Ref="#PWR0703"  Part="1" 
-F 0 "#PWR0503" H 1700 1000 50  0001 C CNN
-F 1 "+3.3V" H 1715 1323 50  0000 C CNN
-F 2 "" H 1700 1150 50  0001 C CNN
-F 3 "" H 1700 1150 50  0001 C CNN
-	1    1700 1150
+F 0 "#PWR0503" H 1150 1050 50  0001 C CNN
+F 1 "+3.3V" H 1165 1373 50  0000 C CNN
+F 2 "" H 1150 1200 50  0001 C CNN
+F 3 "" H 1150 1200 50  0001 C CNN
+	1    1150 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -942,14 +912,14 @@ LOS
 $Comp
 L power:PWR_FLAG #FLG0501
 U 1 1 5A8B20A8
-P 2600 1000
+P 2400 1000
 AR Path="/5A78E64E/5A8B20A8" Ref="#FLG0501"  Part="1" 
 AR Path="/5A78E661/5A8B20A8" Ref="#FLG0701"  Part="1" 
-F 0 "#FLG0501" H 2600 1075 50  0001 C CNN
-F 1 "PWR_FLAG" H 2600 1174 50  0000 C CNN
-F 2 "" H 2600 1000 50  0001 C CNN
-F 3 "" H 2600 1000 50  0001 C CNN
-	1    2600 1000
+F 0 "#FLG0501" H 2400 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 1174 50  0000 C CNN
+F 2 "" H 2400 1000 50  0001 C CNN
+F 3 "" H 2400 1000 50  0001 C CNN
+	1    2400 1000
 	1    0    0    -1  
 $EndComp
 Text Label 3600 1950 2    50   ~ 0
@@ -1332,15 +1302,46 @@ Wire Wire Line
 $Comp
 L Device:L_Core_Iron L501
 U 1 1 5A852718
-P 2150 1000
+P 1600 1000
 AR Path="/5A78E64E/5A852718" Ref="L501"  Part="1" 
 AR Path="/5A78E661/5A852718" Ref="L701"  Part="1" 
-F 0 "L501" V 1972 1000 50  0000 C CNN
-F 1 "4u7H" V 2063 1000 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 2150 1000 50  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe322512c.ashx" H 2150 1000 50  0001 C CNN
-F 4 "1277AS-H-4R7M=P2" H 2150 1000 50  0001 C CNN "mpn"
-	1    2150 1000
+F 0 "L501" V 1422 1000 50  0000 C CNN
+F 1 "4u7H" V 1513 1000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 1600 1000 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe322512c.ashx" H 1600 1000 50  0001 C CNN
+F 4 "1277AS-H-4R7M=P2" H 1600 1000 50  0001 C CNN "mpn"
+	1    1600 1000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2400 1700 2400 1350
+Wire Wire Line
+	2400 1700 2050 1700
+Wire Wire Line
+	2050 1700 2050 1850
+Wire Wire Line
+	1750 1400 2050 1400
+Wire Wire Line
+	2400 1000 4600 1000
+Wire Wire Line
+	2500 1400 4500 1400
+Wire Wire Line
+	2050 1400 2500 1400
+Connection ~ 2050 1400
+Connection ~ 1900 1000
+Wire Wire Line
+	1900 1000 2400 1000
+Connection ~ 2050 1700
+Wire Wire Line
+	2050 1700 1900 1700
+Connection ~ 2500 1400
+Wire Wire Line
+	2400 1700 2500 1700
+Connection ~ 2400 1700
+Wire Wire Line
+	1900 1350 1900 1700
+Wire Wire Line
+	1900 1050 1900 1000
+Wire Wire Line
+	2400 1050 2400 1000
 $EndSCHEMATC

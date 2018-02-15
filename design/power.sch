@@ -118,8 +118,8 @@ P 3200 2700
 F 0 "C202" H 3292 2746 50  0000 L CNN
 F 1 "0u1F" H 3292 2655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3200 2700 50  0001 C CNN
-F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 3200 2700 50  0001 C CNN
-F 4 "UMJ107BB7104KAHT" H 3200 2700 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 3200 2700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 3200 2700 50  0001 C CNN "mpn"
 	1    3200 2700
 	1    0    0    -1  
 $EndComp
@@ -133,8 +133,8 @@ P 3550 2700
 F 0 "C203" H 3642 2746 50  0000 L CNN
 F 1 "0u1F" H 3642 2655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3550 2700 50  0001 C CNN
-F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 3550 2700 50  0001 C CNN
-F 4 "UMJ107BB7104KAHT" H 3550 2700 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 3550 2700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 3550 2700 50  0001 C CNN "mpn"
 	1    3550 2700
 	1    0    0    -1  
 $EndComp
@@ -185,7 +185,7 @@ U 1 1 5A7EF0EB
 P 6250 4350
 F 0 "R203" H 6180 4304 50  0000 R CNN
 F 1 "10k" H 6180 4395 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 6180 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 4350 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6250 4350 50  0001 C CNN
 F 4 "CRG0603J10K" H 6250 4350 50  0001 C CNN "mpn"
 	1    6250 4350
@@ -197,7 +197,7 @@ U 1 1 5A7EF4C0
 P 6650 2750
 F 0 "R204" H 6580 2704 50  0000 R CNN
 F 1 "31k6" H 6580 2795 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 6580 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 2750 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6650 2750 50  0001 C CNN
 F 4 "CRCW060331K6FKEA" H 6650 2750 50  0001 C CNN "mpn"
 	1    6650 2750
@@ -209,7 +209,7 @@ U 1 1 5A7EF8B3
 P 6650 4150
 F 0 "R205" H 6580 4104 50  0000 R CNN
 F 1 "52k3" H 6580 4195 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 6580 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 4150 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6650 4150 50  0001 C CNN
 F 4 "CRCW060352K3FKEA" H 6650 4150 50  0001 C CNN "mpn"
 	1    6650 4150
@@ -221,7 +221,7 @@ U 1 1 5A7EF90D
 P 6250 3000
 F 0 "R202" H 6180 2954 50  0000 R CNN
 F 1 "10k" H 6180 3045 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 6180 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 3000 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6250 3000 50  0001 C CNN
 F 4 "CRG0603J10K" H 6250 3000 50  0001 C CNN "mpn"
 	1    6250 3000
@@ -338,8 +338,8 @@ P 6050 2300
 F 0 "C206" H 6142 2346 50  0000 L CNN
 F 1 "0u1F" H 6142 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6050 2300 50  0001 C CNN
-F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 6050 2300 50  0001 C CNN
-F 4 "UMJ107BB7104KAHT" H 6050 2300 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 6050 2300 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 6050 2300 50  0001 C CNN "mpn"
 	1    6050 2300
 	1    0    0    -1  
 $EndComp
@@ -354,8 +354,8 @@ P 6050 3700
 F 0 "C207" H 6142 3746 50  0000 L CNN
 F 1 "0u1F" H 6142 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6050 3700 50  0001 C CNN
-F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 6050 3700 50  0001 C CNN
-F 4 "UMJ107BB7104KAHT" H 6050 3700 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 6050 3700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 6050 3700 50  0001 C CNN "mpn"
 	1    6050 3700
 	1    0    0    -1  
 $EndComp

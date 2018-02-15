@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -93,9 +93,9 @@ AR Path="/5A8D14B5/5A8C58B8" Ref="C1001"  Part="1"
 AR Path="/5A8C396A/5A8C58B8" Ref="C901"  Part="1" 
 F 0 "C1001" H 3515 2796 50  0000 L CNN
 F 1 "0u1F" H 3515 2705 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3438 2600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 3400 2750 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 3400 2750 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3438 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 3400 2750 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 3400 2750 50  0001 C CNN "mpn"
 	1    3400 2750
 	1    0    0    -1  
 $EndComp
@@ -107,9 +107,9 @@ AR Path="/5A8D14B5/5A8C58F7" Ref="C1002"  Part="1"
 AR Path="/5A8C396A/5A8C58F7" Ref="C902"  Part="1" 
 F 0 "C1002" H 4565 3746 50  0000 L CNN
 F 1 "0u1F" H 4565 3655 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4488 3550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4450 3700 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 4450 3700 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 3550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 4450 3700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 4450 3700 50  0001 C CNN "mpn"
 	1    4450 3700
 	1    0    0    -1  
 $EndComp
@@ -248,9 +248,9 @@ AR Path="/5A8D14B5/5A8CE0CB" Ref="C1004"  Part="1"
 AR Path="/5A8C396A/5A8CE0CB" Ref="C904"  Part="1" 
 F 0 "C1004" H 6465 2796 50  0000 L CNN
 F 1 "0u1F" H 6465 2705 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6388 2600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6350 2750 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 6350 2750 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 6350 2750 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 6350 2750 50  0001 C CNN "mpn"
 	1    6350 2750
 	1    0    0    -1  
 $EndComp
@@ -262,9 +262,9 @@ AR Path="/5A8D14B5/5A8CE121" Ref="C1003"  Part="1"
 AR Path="/5A8C396A/5A8CE121" Ref="C903"  Part="1" 
 F 0 "C1003" H 6265 2796 50  0000 L CNN
 F 1 "0u1F" H 6265 2705 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6188 2600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6150 2750 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 6150 2750 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 6150 2750 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 6150 2750 50  0001 C CNN "mpn"
 	1    6150 2750
 	-1   0    0    -1  
 $EndComp
@@ -335,4 +335,6 @@ F 3 "" H 4450 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4450 2850
+Text Label 6150 2650 0    50   ~ 0
+VBUS2
 $EndSCHEMATC

@@ -20,50 +20,50 @@ U 1 1 5A7B0FE8
 P 4450 3250
 F 0 "U402" H 4841 3296 50  0000 L CNN
 F 1 "STWD100xxWY" H 4841 3205 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 4500 3450 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4500 3450 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 4600 3550 50  0001 C CNN
 F 4 "STWD100PYW83F" H 4450 3250 50  0001 C CNN "mpn"
 	1    4450 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L CommsCard:74LVC2G00 U404
+L CommsCard:74LVC2G00 U403
 U 2 1 5A7B6676
-P 6350 3200
-F 0 "U404" H 6325 3467 50  0000 C CNN
-F 1 "74LVC2G00" H 6325 3376 50  0000 C CNN
-F 2 "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm" H 6350 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g00.pdf" H 6350 3200 50  0001 C CNN
-F 4 "SN74LVC2G00YZPR" H 6350 3200 50  0001 C CNN "mpn"
-	2    6350 3200
+P 6100 3200
+F 0 "U403" H 6075 3467 50  0000 C CNN
+F 1 "74LVC2G00" H 6075 3376 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 6100 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g00.pdf" H 6100 3200 50  0001 C CNN
+F 4 "SN74LVC2G00DCUR" H 6100 3200 50  0001 C CNN "mpn"
+	2    6100 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 3150 6000 3150
+	5800 3150 5750 3150
 Wire Wire Line
-	7050 1900 6950 1900
+	7050 1900 6700 1900
 Wire Wire Line
-	6600 3200 6800 3200
+	6350 3200 6550 3200
 Wire Wire Line
-	6800 3200 6800 3450
+	6550 3200 6550 3450
 Wire Wire Line
-	6800 3450 5850 3450
+	6550 3450 5600 3450
 Wire Wire Line
-	5850 3450 5850 1950
+	5600 3450 5600 1950
 Wire Wire Line
-	5850 1950 6050 1950
+	5600 1950 5800 1950
 Wire Wire Line
-	6650 1900 6600 1900
+	6400 1900 6350 1900
 Wire Wire Line
-	6000 2600 7050 2600
+	5750 2600 7050 2600
 Wire Wire Line
-	6000 2600 6000 3150
+	5750 2600 5750 3150
 Wire Wire Line
 	7050 1900 7050 2600
 Wire Wire Line
-	6050 3250 4800 3250
+	5800 3250 4800 3250
 Wire Wire Line
-	6050 1850 4750 1850
+	5800 1850 4750 1850
 $Comp
 L power:GND #PWR0404
 U 1 1 5A7B7021
@@ -92,14 +92,14 @@ Wire Wire Line
 	4450 3650 4450 3600
 $Comp
 L CommsCard:74LVC2G00 U403
-U 2 1 5A7B74F5
-P 6350 1900
-F 0 "U403" H 6325 2167 50  0000 C CNN
-F 1 "74LVC2G00" H 6325 2076 50  0000 C CNN
-F 2 "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm" H 6350 1900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g00.pdf" H 6350 1900 50  0001 C CNN
-F 4 "SN74LVC2G00YZPR" H 6350 1900 50  0001 C CNN "mpn"
-	2    6350 1900
+U 1 1 5A7B74F5
+P 6100 1900
+F 0 "U403" H 6075 2167 50  0000 C CNN
+F 1 "74LVC2G00" H 6075 2076 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 6100 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g00.pdf" H 6100 1900 50  0001 C CNN
+F 4 "SN74LVC2G00DCUR" H 6100 1900 50  0001 C CNN "mpn"
+	1    6100 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -112,8 +112,9 @@ U 1 1 5A7B77EA
 P 3800 1500
 F 0 "TP401" H 3858 1620 50  0000 L CNN
 F 1 "Test_Point" H 3858 1529 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4000 1500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4000 1500 50  0001 C CNN
 F 3 "~" H 4000 1500 50  0001 C CNN
+F 4 "~" H 3800 1500 50  0001 C CNN "mpn"
 	1    3800 1500
 	1    0    0    -1  
 $EndComp
@@ -197,14 +198,12 @@ U 1 1 5A7BA9FB
 P 8750 2000
 F 0 "U405" H 8850 2900 50  0000 C CNN
 F 1 "74AHC157" H 9000 2800 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8750 2000 50  0001 C CNN
+F 2 "TI-QFN:Texas_R-PVQFN-N16_EP4x3.5_Pitch0.5mm" H 8750 2000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ahc157.pdf" H 8750 2000 50  0001 C CNN
 F 4 "SN74AHC157RGYR" H 8750 2000 50  0001 C CNN "mpn"
 	1    8750 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8250 2600 7450 2600
 Connection ~ 7050 2600
 $Comp
 L power:+3V3 #PWR0409
@@ -245,9 +244,9 @@ U 3 1 5A7BD6BD
 P 3600 6700
 F 0 "U403" H 3575 6967 50  0000 C CNN
 F 1 "74LVC2G00" H 3575 6876 50  0000 C CNN
-F 2 "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm" H 3600 6700 50  0001 C CNN
+F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 3600 6700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g00.pdf" H 3600 6700 50  0001 C CNN
-F 4 "SN74LVC2G00YZPR" H 3600 6700 50  0001 C CNN "mpn"
+F 4 "SN74LVC2G00DCUR" H 3600 6700 50  0001 C CNN "mpn"
 	3    3600 6700
 	1    0    0    -1  
 $EndComp
@@ -279,7 +278,7 @@ U 1 1 5A7BE12B
 P 4400 1850
 F 0 "U401" H 4791 1896 50  0000 L CNN
 F 1 "STWD100xxWY" H 4791 1805 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 4450 2050 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4450 2050 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/6a/b3/83/9a/c7/4f/22/CD00176077.pdf/files/CD00176077.pdf/jcr:content/translations/en.CD00176077.pdf" H 4550 2150 50  0001 C CNN
 F 4 "STWD100PYW83F" H 4400 1850 50  0001 C CNN "mpn"
 	1    4400 1850
@@ -291,7 +290,7 @@ U 1 1 5A7BE190
 P 3850 2900
 F 0 "TP402" H 3908 3020 50  0000 L CNN
 F 1 "Test_Point" H 3908 2929 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4050 2900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4050 2900 50  0001 C CNN
 F 3 "~" H 4050 2900 50  0001 C CNN
 	1    3850 2900
 	1    0    0    -1  
@@ -307,8 +306,8 @@ P 4000 6700
 F 0 "C401" H 4115 6746 50  0000 L CNN
 F 1 "0u1F" H 4115 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 6550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KA8NFNC.jsp" H 4000 6700 50  0001 C CNN
-F 4 "CL10B104KA8NFNC" H 4000 6700 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 4000 6700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 4000 6700 50  0001 C CNN "mpn"
 	1    4000 6700
 	1    0    0    -1  
 $EndComp
@@ -323,8 +322,8 @@ P 4450 6700
 F 0 "C402" H 4565 6746 50  0000 L CNN
 F 1 "0u1F" H 4565 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 6550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KA8NFNC.jsp" H 4450 6700 50  0001 C CNN
-F 4 "CL10B104KA8NFNC" H 4450 6700 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 4450 6700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 4450 6700 50  0001 C CNN "mpn"
 	1    4450 6700
 	1    0    0    -1  
 $EndComp
@@ -339,8 +338,8 @@ P 4900 6700
 F 0 "C403" H 5015 6746 50  0000 L CNN
 F 1 "0u1F" H 5015 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 6550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KA8NFNC.jsp" H 4900 6700 50  0001 C CNN
-F 4 "CL10B104KA8NFNC" H 4900 6700 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 4900 6700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 4900 6700 50  0001 C CNN "mpn"
 	1    4900 6700
 	1    0    0    -1  
 $EndComp
@@ -355,8 +354,8 @@ P 5350 6700
 F 0 "C404" H 5465 6746 50  0000 L CNN
 F 1 "0u1F" H 5465 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5388 6550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KA8NFNC.jsp" H 5350 6700 50  0001 C CNN
-F 4 "CL10B104KA8NFNC" H 5350 6700 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 5350 6700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 5350 6700 50  0001 C CNN "mpn"
 	1    5350 6700
 	1    0    0    -1  
 $EndComp
@@ -420,35 +419,32 @@ Wire Wire Line
 	8250 3050 8650 3050
 Connection ~ 8650 3050
 Wire Wire Line
-	7050 2600 7050 3000
+	7050 2600 7050 2850
 Wire Wire Line
-	7050 3000 7300 3000
-Text HLabel 7300 3000 2    50   Output ~ 0
+	7050 2850 7300 2850
+Text HLabel 7300 2850 2    50   Output ~ 0
 IN_CHARGE
 $Comp
 L Connector_Specialized:Test_Point TP403
 U 1 1 5A82CCF7
-P 7450 2600
-F 0 "TP403" H 7508 2720 50  0000 L CNN
-F 1 "Test_Point" H 7508 2629 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7650 2600 50  0001 C CNN
-F 3 "~" H 7650 2600 50  0001 C CNN
-	1    7450 2600
+P 9900 5500
+F 0 "TP403" H 9958 5620 50  0000 L CNN
+F 1 "Test_Point" H 9958 5529 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10100 5500 50  0001 C CNN
+F 3 "~" H 10100 5500 50  0001 C CNN
+	1    9900 5500
 	1    0    0    -1  
 $EndComp
-Connection ~ 7450 2600
-Wire Wire Line
-	7450 2600 7050 2600
 $Comp
 L Device:R R403
 U 1 1 5A836CA1
-P 6800 1900
-F 0 "R403" H 6730 1854 50  0000 R CNN
-F 1 "10k" H 6730 1945 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 6730 1900 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6800 1900 50  0001 C CNN
-F 4 "CRG0603F1K0" H 6800 1900 50  0001 C CNN "mpn"
-	1    6800 1900
+P 6550 1900
+F 0 "R403" H 6480 1854 50  0000 R CNN
+F 1 "10k" H 6480 1945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 1900 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 6550 1900 50  0001 C CNN
+F 4 "CRG0603J10K" H 6550 1900 50  0001 C CNN "mpn"
+	1    6550 1900
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -457,9 +453,9 @@ U 1 1 5A83892F
 P 3050 1750
 F 0 "R401" H 2980 1704 50  0000 R CNN
 F 1 "10k" H 2980 1795 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 2980 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 1750 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 3050 1750 50  0001 C CNN
-F 4 "CRG0603F1K0" H 3050 1750 50  0001 C CNN "mpn"
+F 4 "CRG0603J10K" H 3050 1750 50  0001 C CNN "mpn"
 	1    3050 1750
 	1    0    0    1   
 $EndComp
@@ -469,9 +465,9 @@ U 1 1 5A839815
 P 3100 3150
 F 0 "R402" H 3030 3104 50  0000 R CNN
 F 1 "10k" H 3030 3195 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 3030 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 3150 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 3100 3150 50  0001 C CNN
-F 4 "CRG0603F1K0" H 3100 3150 50  0001 C CNN "mpn"
+F 4 "CRG0603J10K" H 3100 3150 50  0001 C CNN "mpn"
 	1    3100 3150
 	1    0    0    1   
 $EndComp
@@ -548,10 +544,10 @@ L Logic_74xx:74HC04 U406
 U 3 1 5A8462FD
 P 4950 4700
 F 0 "U406" H 4950 5017 50  0000 C CNN
-F 1 "74HC04" H 4950 4926 50  0000 C CNN
+F 1 "74LV14" H 4950 4926 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4950 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc04.pdf" H 4950 4700 50  0001 C CNN
-F 4 "SN74HC04PWR" H 4950 4700 50  0001 C CNN "mpn"
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 4950 4700 50  0001 C CNN
+F 4 "SN74LV14APWR" H 4950 4700 50  0001 C CNN "mpn"
 	3    4950 4700
 	1    0    0    -1  
 $EndComp
@@ -646,8 +642,8 @@ P 2450 6700
 F 0 "C405" H 2565 6746 50  0000 L CNN
 F 1 "0u1F" H 2565 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2488 6550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KA8NFNC.jsp" H 2450 6700 50  0001 C CNN
-F 4 "CL10B104KA8NFNC" H 2450 6700 50  0001 C CNN "mpn"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 2450 6700 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 2450 6700 50  0001 C CNN "mpn"
 	1    2450 6700
 	-1   0    0    -1  
 $EndComp
@@ -670,10 +666,10 @@ L Logic_74xx:74HC04 U406
 U 4 1 5A85B128
 P 4950 5250
 F 0 "U406" H 4950 5567 50  0000 C CNN
-F 1 "74HC04" H 4950 5476 50  0000 C CNN
+F 1 "74LV14" H 4950 5476 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4950 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc04.pdf" H 4950 5250 50  0001 C CNN
-F 4 "SN74HC04PWR" H 4950 5250 50  0001 C CNN "mpn"
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 4950 5250 50  0001 C CNN
+F 4 "SN74LV14APWR" H 4950 5250 50  0001 C CNN "mpn"
 	4    4950 5250
 	1    0    0    -1  
 $EndComp
@@ -682,10 +678,10 @@ L Logic_74xx:74HC04 U406
 U 2 1 5A85B182
 P 2750 5200
 F 0 "U406" H 2750 5517 50  0000 C CNN
-F 1 "74HC04" H 2750 5426 50  0000 C CNN
+F 1 "74LV14" H 2750 5426 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2750 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc04.pdf" H 2750 5200 50  0001 C CNN
-F 4 "SN74HC04PWR" H 2750 5200 50  0001 C CNN "mpn"
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 2750 5200 50  0001 C CNN
+F 4 "SN74LV14APWR" H 2750 5200 50  0001 C CNN "mpn"
 	2    2750 5200
 	1    0    0    -1  
 $EndComp
@@ -694,10 +690,10 @@ L Logic_74xx:74HC04 U406
 U 1 1 5A85B1F6
 P 2750 4700
 F 0 "U406" H 2750 5017 50  0000 C CNN
-F 1 "74HC04" H 2750 4926 50  0000 C CNN
+F 1 "74LV14" H 2750 4926 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2750 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc04.pdf" H 2750 4700 50  0001 C CNN
-F 4 "SN74HC04PWR" H 2750 4700 50  0001 C CNN "mpn"
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 2750 4700 50  0001 C CNN
+F 4 "SN74LV14APWR" H 2750 4700 50  0001 C CNN "mpn"
 	1    2750 4700
 	1    0    0    -1  
 $EndComp
@@ -706,11 +702,102 @@ L Logic_74xx:74HC04 U406
 U 7 1 5A85B26F
 P 2850 6700
 F 0 "U406" H 2850 7017 50  0000 C CNN
-F 1 "74HC04" H 2850 6926 50  0000 C CNN
+F 1 "74LV14" H 2850 6926 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2850 6700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc04.pdf" H 2850 6700 50  0001 C CNN
-F 4 "SN74HC04PWR" H 2850 6700 50  0001 C CNN "mpn"
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 2850 6700 50  0001 C CNN
+F 4 "SN74LV14APWR" H 2850 6700 50  0001 C CNN "mpn"
 	7    2850 6700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper:Jumper_3_Open JP401
+U 1 1 5A86F4C4
+P 9900 5800
+F 0 "JP401" H 9900 5985 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9900 5894 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9900 5800 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 9900 5800 50  0001 C CNN
+F 4 "M20-9990345" H 9900 5800 50  0001 C CNN "mpn"
+	1    9900 5800
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0414
+U 1 1 5A86F4D1
+P 10200 5800
+F 0 "#PWR0414" H 10200 5550 50  0001 C CNN
+F 1 "GND" H 10205 5627 50  0000 C CNN
+F 2 "" H 10200 5800 50  0001 C CNN
+F 3 "" H 10200 5800 50  0001 C CNN
+	1    10200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0413
+U 1 1 5A86F4DF
+P 9600 5750
+F 0 "#PWR0413" H 9600 5600 50  0001 C CNN
+F 1 "+3.3V" H 9615 5923 50  0000 C CNN
+F 2 "" H 9600 5750 50  0001 C CNN
+F 3 "" H 9600 5750 50  0001 C CNN
+	1    9600 5750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 12
+	9200 6350 9200 5250
+Wire Notes Line width 12
+	9200 5250 10850 5250
+Wire Notes Line width 12
+	10850 5250 10850 6350
+Wire Notes Line width 12
+	10850 6350 9200 6350
+Text Notes 9250 6300 0    50   ~ 0
+Connect a jumper on pins 1-2 for FC1\nConnect a jumper on pins 2-3 for FC2\nLeave open for watchdog select
+Wire Wire Line
+	10150 5800 10200 5800
+Text HLabel 10000 5600 2    50   Output ~ 0
+IN_CHARGE
+Wire Wire Line
+	9900 5650 9900 5600
+Wire Wire Line
+	9900 5600 10000 5600
+Wire Wire Line
+	9650 5800 9600 5800
+Wire Wire Line
+	9600 5800 9600 5750
+Text Notes 10850 5200 2    50   ~ 10
+InCharge Override
+$Comp
+L Device:C C406
+U 1 1 5A887245
+P 7050 3150
+F 0 "C406" H 7165 3196 50  0000 L CNN
+F 1 "0u1F" H 7165 3105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 3000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 7050 3150 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 7050 3150 50  0001 C CNN "mpn"
+	1    7050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0415
+U 1 1 5A88736C
+P 7050 3350
+F 0 "#PWR0415" H 7050 3100 50  0001 C CNN
+F 1 "GND" H 7055 3177 50  0000 C CNN
+F 2 "" H 7050 3350 50  0001 C CNN
+F 3 "" H 7050 3350 50  0001 C CNN
+	1    7050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3350 7050 3300
+Connection ~ 7050 2850
+Wire Wire Line
+	7050 2850 7050 3000
+Connection ~ 9900 5600
+Wire Wire Line
+	7050 2600 8250 2600
+Wire Wire Line
+	9900 5600 9900 5500
 $EndSCHEMATC

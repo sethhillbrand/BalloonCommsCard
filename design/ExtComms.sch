@@ -98,9 +98,9 @@ U 1 1 5A919872
 P 4000 6400
 F 0 "C304" H 4115 6446 50  0000 L CNN
 F 1 "0u1F" H 4115 6355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4038 6250 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4000 6400 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 4000 6400 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 6250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 4000 6400 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 4000 6400 50  0001 C CNN "mpn"
 	1    4000 6400
 	-1   0    0    -1  
 $EndComp
@@ -110,9 +110,9 @@ U 1 1 5A9198C6
 P 4200 6400
 F 0 "C305" H 4315 6446 50  0000 L CNN
 F 1 "0u1F" H 4315 6355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4238 6250 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4200 6400 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 4200 6400 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 6250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 4200 6400 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 4200 6400 50  0001 C CNN "mpn"
 	1    4200 6400
 	1    0    0    -1  
 $EndComp
@@ -122,9 +122,9 @@ U 1 1 5A919934
 P 2450 6500
 F 0 "C303" H 2565 6546 50  0000 L CNN
 F 1 "0u1F" H 2565 6455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2488 6350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 2450 6500 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 2450 6500 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2488 6350 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 2450 6500 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 2450 6500 50  0001 C CNN "mpn"
 	1    2450 6500
 	-1   0    0    -1  
 $EndComp
@@ -134,9 +134,9 @@ U 1 1 5A91999C
 P 2450 6000
 F 0 "C302" H 2565 6046 50  0000 L CNN
 F 1 "0u1F" H 2565 5955 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2488 5850 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 2450 6000 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 2450 6000 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2488 5850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 2450 6000 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 2450 6000 50  0001 C CNN "mpn"
 	1    2450 6000
 	-1   0    0    -1  
 $EndComp
@@ -266,9 +266,9 @@ U 1 1 5A92E4F1
 P 1950 5750
 F 0 "C301" H 2065 5796 50  0000 L CNN
 F 1 "0u1F" H 2065 5705 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1988 5600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 1950 5750 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 1950 5750 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 5600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 1950 5750 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 1950 5750 50  0001 C CNN "mpn"
 	1    1950 5750
 	-1   0    0    -1  
 $EndComp
@@ -546,9 +546,9 @@ U 1 1 5A827761
 P 8200 1050
 F 0 "R302" H 8130 1004 50  0000 R CNN
 F 1 "10k" H 8130 1095 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 8130 1050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 1050 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 8200 1050 50  0001 C CNN
-F 4 "CRG0603F1K0" H 8200 1050 50  0001 C CNN "mpn"
+F 4 "CRG0603J10K" H 8200 1050 50  0001 C CNN "mpn"
 	1    8200 1050
 	-1   0    0    1   
 $EndComp
@@ -569,9 +569,9 @@ U 1 1 5A82929B
 P 7600 1050
 F 0 "R301" H 7530 1004 50  0000 R CNN
 F 1 "10k" H 7530 1095 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 7530 1050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 1050 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 7600 1050 50  0001 C CNN
-F 4 "CRG0603F1K0" H 7600 1050 50  0001 C CNN "mpn"
+F 4 "CRG0603J10K" H 7600 1050 50  0001 C CNN "mpn"
 	1    7600 1050
 	1    0    0    1   
 $EndComp
@@ -631,9 +631,9 @@ U 1 1 5A80BC9F
 P 10350 4450
 F 0 "C309" V 10121 4450 50  0000 C CNN
 F 1 "10uF" V 10212 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10350 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10350 4450 50  0001 C CNN
 F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 10350 4450 50  0001 C CNN
-F 4 "LMK212AB7106MG-T" H 10350 4450 50  0001 C CNN "mpn"
+F 4 "EMK212BB7106MG-T" H 10350 4450 50  0001 C CNN "mpn"
 	1    10350 4450
 	1    0    0    1   
 $EndComp
@@ -643,9 +643,9 @@ U 1 1 5A80BEF8
 P 10650 4450
 F 0 "C310" V 10421 4450 50  0000 C CNN
 F 1 "10uF" V 10512 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10650 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10650 4450 50  0001 C CNN
 F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 10650 4450 50  0001 C CNN
-F 4 "LMK212AB7106MG-T" H 10650 4450 50  0001 C CNN "mpn"
+F 4 "EMK212BB7106MG-T" H 10650 4450 50  0001 C CNN "mpn"
 	1    10650 4450
 	-1   0    0    1   
 $EndComp
@@ -687,9 +687,9 @@ U 1 1 5A822155
 P 7550 4350
 F 0 "C308" H 7665 4396 50  0000 L CNN
 F 1 "0u1F" H 7665 4305 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7588 4200 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 7550 4350 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 7550 4350 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 4200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 7550 4350 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 7550 4350 50  0001 C CNN "mpn"
 	1    7550 4350
 	1    0    0    -1  
 $EndComp
@@ -735,9 +735,9 @@ U 1 1 5A832A58
 P 7300 2350
 F 0 "C307" H 7415 2396 50  0000 L CNN
 F 1 "0u1F" H 7415 2305 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7338 2200 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 7300 2350 50  0001 C CNN
-F 4 "CL10F104ZB8NNNC" H 7300 2350 50  0001 C CNN "mpn"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7338 2200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 7300 2350 50  0001 C CNN
+F 4 "CL10B104KO8WPNC" H 7300 2350 50  0001 C CNN "mpn"
 	1    7300 2350
 	-1   0    0    -1  
 $EndComp
@@ -774,7 +774,7 @@ U 1 1 5A8371E1
 P 8600 3000
 F 0 "R303" H 8530 2954 50  0000 R CNN
 F 1 "120R" H 8530 3045 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 8530 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 3000 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 8600 3000 50  0001 C CNN
 F 4 "RT0603DRE07120RL" H 8600 3000 50  0001 C CNN "mpn"
 	1    8600 3000

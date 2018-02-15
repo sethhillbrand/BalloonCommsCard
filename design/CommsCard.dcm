@@ -48,6 +48,12 @@ K Dual Gate EX-OR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74LVC3G14
+D Triple Schmitt-Trigger Inverter
+K TTL not inv
+F http://www.ti.com/lit/ds/symlink/sn74lvc3g14.pdf
+$ENDCMP
+#
 $CMP 93CxxA
 D Serial EEPROM, 93 series in 8-pin package, 5.0V
 K EEPROM memory SPI microwire

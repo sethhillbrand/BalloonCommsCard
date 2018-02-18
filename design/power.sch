@@ -576,4 +576,20 @@ F 4 "LT3509EMSE#PBF" H 5600 3900 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 Connection ~ 6050 2400
+Text Label 6000 2600 1    50   ~ 0
+DA1
+Text Label 6000 4000 1    50   ~ 0
+DA2
+Text Label 6000 4150 0    50   ~ 0
+FB2
+Text Label 6000 2750 0    50   ~ 0
+FB1
+Text Label 5950 3600 0    50   ~ 0
+BOOST2
+Text Label 5950 2200 0    50   ~ 0
+BOOST1
+Text Label 6350 2400 0    20   ~ 0
+SW1
+Text Label 6350 3800 0    20   ~ 0
+SW2
 $EndSCHEMATC

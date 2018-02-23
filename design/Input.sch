@@ -907,19 +907,17 @@ EEDATA
 $Comp
 L Device:R_Pack08 RN501
 U 1 1 5A81550F
-P 9750 3700
+P 9750 3600
 AR Path="/5A78E64E/5A81550F" Ref="RN501"  Part="1" 
 AR Path="/5A78E661/5A81550F" Ref="RN701"  Part="1" 
-F 0 "RN501" V 9133 3700 50  0000 C CNN
-F 1 "330R" V 9224 3700 50  0000 C CNN
-F 2 "ResistorArray:R_Array_Convex_8x0402" V 10225 3700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 9750 3700 50  0001 C CNN
-F 4 "EXB-2HV331JV" H 9750 3700 50  0001 C CNN "mpn"
-	1    9750 3700
-	0    1    1    0   
+F 0 "RN501" V 9133 3600 50  0000 C CNN
+F 1 "330R" V 9224 3600 50  0000 C CNN
+F 2 "ResistorArray:R_Array_Convex_8x0402" V 10225 3600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 9750 3600 50  0001 C CNN
+F 4 "EXB-2HV331JV" H 9750 3600 50  0001 C CNN "mpn"
+	1    9750 3600
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	9350 3300 9550 3300
 Wire Wire Line
 	9350 3400 9550 3400
 Wire Wire Line
@@ -1298,4 +1296,6 @@ Text Label 3000 2950 0    50   ~ 0
 REF
 Wire Wire Line
 	6500 950  6950 950 
+NoConn ~ 9550 3300
+NoConn ~ 9350 3300
 $EndSCHEMATC

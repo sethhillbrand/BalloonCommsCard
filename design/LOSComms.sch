@@ -640,7 +640,7 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 10400 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv86a-ep.pdf" H 10400 1950 50  0001 C CNN
 F 4 "SN74LV86ATPWREP" H 10400 1950 50  0001 C CNN "mpn"
 	3    10400 1950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	10100 1850 10100 1900

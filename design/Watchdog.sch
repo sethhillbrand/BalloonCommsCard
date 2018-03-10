@@ -522,13 +522,13 @@ Wire Wire Line
 $Comp
 L Logic_74xx:74HC04 U401
 U 3 1 5A8462FD
-P 4950 4700
-F 0 "U401" H 4950 5017 50  0000 C CNN
-F 1 "74LV14" H 4950 4926 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4950 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 4950 4700 50  0001 C CNN
-F 4 "SN74LV14APWR" H 4950 4700 50  0001 C CNN "mpn"
-	3    4950 4700
+P 4950 5250
+F 0 "U401" H 4950 5567 50  0000 C CNN
+F 1 "74LV14" H 4950 5476 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4950 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 4950 5250 50  0001 C CNN
+F 4 "SN74LV14APWR" H 4950 5250 50  0001 C CNN "mpn"
+	3    4950 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -644,25 +644,25 @@ Wire Wire Line
 $Comp
 L Logic_74xx:74HC04 U401
 U 4 1 5A85B128
-P 4950 5250
-F 0 "U401" H 4950 5567 50  0000 C CNN
-F 1 "74LV14" H 4950 5476 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4950 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 4950 5250 50  0001 C CNN
-F 4 "SN74LV14APWR" H 4950 5250 50  0001 C CNN "mpn"
-	4    4950 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Logic_74xx:74HC04 U401
-U 2 1 5A85B182
 P 2750 5200
 F 0 "U401" H 2750 5517 50  0000 C CNN
 F 1 "74LV14" H 2750 5426 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2750 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 2750 5200 50  0001 C CNN
 F 4 "SN74LV14APWR" H 2750 5200 50  0001 C CNN "mpn"
-	2    2750 5200
+	4    2750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xx:74HC04 U401
+U 2 1 5A85B182
+P 4950 4700
+F 0 "U401" H 4950 5017 50  0000 C CNN
+F 1 "74LV14" H 4950 4926 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4950 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv14a.pdf" H 4950 4700 50  0001 C CNN
+F 4 "SN74LV14APWR" H 4950 4700 50  0001 C CNN "mpn"
+	2    4950 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -803,5 +803,4 @@ Wire Wire Line
 	4800 3250 6350 3250
 Wire Wire Line
 	6350 1950 6450 1950
-Connection ~ 6150 2800
 $EndSCHEMATC

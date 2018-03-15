@@ -48,6 +48,12 @@ K Dual Gate NAND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74LVC2G14
+D Dual NOT Gate Schmitt Triggered, Low-Voltage CMOS
+K Dual Gate NOT Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74LVC2G86
 D Dual EX-OR Gate, Low-Voltage CMOS
 K Dual Gate EX-OR LVC CMOS

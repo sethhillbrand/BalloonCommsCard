@@ -580,7 +580,7 @@ F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_*
+ *:C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
@@ -598,7 +598,7 @@ F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_*
+ *:C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
@@ -620,7 +620,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -644,7 +644,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -721,7 +721,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -796,8 +796,7 @@ F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -870,7 +869,7 @@ F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -30 70 30 -70 0 1 8 N
@@ -1160,10 +1159,10 @@ ENDDEF
 DEF Oscillator_ASE-xxxMHz X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "Oscillator_ASE-xxxMHz" 50 -250 50 H V L CNN
-F2 "Oscillators:Oscillator_SMD_Abracon_ASE-4pin_3.2x2.5mm" 700 -350 50 H I C CNN
+F2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" 700 -350 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 $FPLIST
- Oscillator*SMD*Abracon*ASE*3.2x2.5mm*
+ *:Oscillator*SMD*Abracon*ASE*3.2x2.5mm*
 $ENDFPLIST
 DRAW
 S -200 200 200 -200 0 1 10 f

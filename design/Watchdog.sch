@@ -113,42 +113,12 @@ Connection ~ 3850 3150
 Wire Wire Line
 	3850 3150 3750 3150
 Wire Wire Line
-	3100 3350 3100 3300
-Wire Wire Line
-	3100 3350 4100 3350
-$Comp
-L power:+3V3 #PWR0402
-U 1 1 5A7B80F0
-P 3100 2950
-F 0 "#PWR0402" H 3100 2800 50  0001 C CNN
-F 1 "+3V3" H 3115 3123 50  0000 C CNN
-F 2 "" H 3100 2950 50  0001 C CNN
-F 3 "" H 3100 2950 50  0001 C CNN
-	1    3100 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 3000 3100 2950
-Text HLabel 3100 3350 0    50   Input ~ 0
+	3750 3350 4100 3350
+Text HLabel 3750 3350 0    50   Input ~ 0
 ~FC2_PWREN
 Wire Wire Line
-	3050 2000 3050 1950
-Wire Wire Line
-	3050 2000 4050 2000
-$Comp
-L power:+3V3 #PWR0401
-U 1 1 5A7B889A
-P 3050 1600
-F 0 "#PWR0401" H 3050 1450 50  0001 C CNN
-F 1 "+3V3" H 3065 1773 50  0000 C CNN
-F 2 "" H 3050 1600 50  0001 C CNN
-F 3 "" H 3050 1600 50  0001 C CNN
-	1    3050 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 1650 3050 1600
-Text HLabel 3050 2000 0    50   Input ~ 0
+	3700 2000 4050 2000
+Text HLabel 3700 2000 0    50   Input ~ 0
 ~FC1_PWREN
 $Comp
 L power:+3V3 #PWR0408
@@ -426,30 +396,6 @@ F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&D
 F 4 "CRG0603J10K" H 7200 1900 50  0001 C CNN "mpn"
 	1    7200 1900
 	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R401
-U 1 1 5A83892F
-P 3050 1800
-F 0 "R401" H 2980 1754 50  0000 R CNN
-F 1 "10k" H 2980 1845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 1800 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 3050 1800 50  0001 C CNN
-F 4 "CRG0603J10K" H 3050 1800 50  0001 C CNN "mpn"
-	1    3050 1800
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R402
-U 1 1 5A839815
-P 3100 3150
-F 0 "R402" H 3030 3104 50  0000 R CNN
-F 1 "10k" H 3030 3195 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 3150 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 3100 3150 50  0001 C CNN
-F 4 "CRG0603J10K" H 3100 3150 50  0001 C CNN "mpn"
-	1    3100 3150
-	1    0    0    1   
 $EndComp
 $Comp
 L Device:LED_ALT D401

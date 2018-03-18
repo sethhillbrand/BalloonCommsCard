@@ -78,6 +78,11 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP LightPipe
+D Light Pipe
+K mechanical light pipe
+$ENDCMP
+#
 $CMP MAX3387EEUG
 D 3V, ±15kV ESD-Protected, RS-232 Transceiver
 K RS232 Tranceiver

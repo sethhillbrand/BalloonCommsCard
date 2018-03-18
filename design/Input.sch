@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -935,18 +935,18 @@ Wire Wire Line
 NoConn ~ 9950 3300
 NoConn ~ 9950 3400
 $Comp
-L Device:LED_Dual_ACA D501
+L Device:LED_Dual_AACC D501
 U 1 1 5A834768
 P 10550 3250
 AR Path="/5A78E64E/5A834768" Ref="D501"  Part="1" 
 AR Path="/5A78E661/5A834768" Ref="D701"  Part="1" 
 F 0 "D701" H 10550 3500 50  0000 C CNN
-F 1 "WP130WDT/EGW" H 10550 3584 50  0001 C CNN
-F 2 "LEDs:WP130WDT" H 10550 3250 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP130WDT-EGW.pdf" H 10550 3250 50  0001 C CNN
-F 4 "WP130WDT/EGW" H 10550 3250 50  0001 C CNN "mpn"
+F 1 "LTST-C155GYKT" H 10550 3584 50  0001 C CNN
+F 2 "LED_SMD:LED_RGB_1210" H 10550 3250 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-98-0007/LTST-C155GYKT.pdf" H 10550 3250 50  0001 C CNN
+F 4 "LTST-C155GYKT" H 10550 3250 50  0001 C CNN "mpn"
 	1    10550 3250
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0523
@@ -961,42 +961,6 @@ F 3 "" H 10850 4500 50  0001 C CNN
 	1    10850 4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10850 3250 10850 3750
-$Comp
-L Device:LED_Dual_ACA D502
-U 1 1 5A83C5E4
-P 10550 3750
-AR Path="/5A78E64E/5A83C5E4" Ref="D502"  Part="1" 
-AR Path="/5A78E661/5A83C5E4" Ref="D702"  Part="1" 
-F 0 "D702" H 10550 4000 50  0000 C CNN
-F 1 "WP130WDT/EGW" H 10550 4084 50  0001 C CNN
-F 2 "LEDs:WP130WDT" H 10550 3750 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP130WDT-EGW.pdf" H 10550 3750 50  0001 C CNN
-F 4 "WP130WDT/EGW" H 10550 3750 50  0001 C CNN "mpn"
-	1    10550 3750
-	-1   0    0    -1  
-$EndComp
-Connection ~ 10850 3750
-Wire Wire Line
-	10850 3750 10850 4250
-$Comp
-L Device:LED_Dual_ACA D503
-U 1 1 5A83C6A8
-P 10550 4250
-AR Path="/5A78E64E/5A83C6A8" Ref="D503"  Part="1" 
-AR Path="/5A78E661/5A83C6A8" Ref="D703"  Part="1" 
-F 0 "D703" H 10550 4500 50  0000 C CNN
-F 1 "WP130WDT/EGW" H 10550 4584 50  0001 C CNN
-F 2 "LEDs:WP130WDT" H 10550 4250 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP130WDT-EGW.pdf" H 10550 4250 50  0001 C CNN
-F 4 "WP130WDT/EGW" H 10550 4250 50  0001 C CNN "mpn"
-	1    10550 4250
-	-1   0    0    -1  
-$EndComp
-Connection ~ 10850 4250
-Wire Wire Line
-	10850 4250 10850 4500
 Wire Wire Line
 	9950 3500 10150 3500
 Wire Wire Line
@@ -1317,4 +1281,55 @@ Wire Wire Line
 Connection ~ 3350 1000
 Wire Wire Line
 	3350 1000 4600 1000
+Connection ~ 10850 3350
+Wire Wire Line
+	10850 3150 10850 3350
+Wire Wire Line
+	10850 3350 10850 3650
+$Comp
+L Device:LED_Dual_AACC D502
+U 1 1 5AB0129F
+P 10550 3750
+AR Path="/5A78E64E/5AB0129F" Ref="D502"  Part="1" 
+AR Path="/5A78E661/5AB0129F" Ref="D702"  Part="1" 
+F 0 "D702" H 10550 4000 50  0000 C CNN
+F 1 "LTST-C155GYKT" H 10550 4084 50  0001 C CNN
+F 2 "LED_SMD:LED_RGB_1210" H 10550 3750 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-98-0007/LTST-C155GYKT.pdf" H 10550 3750 50  0001 C CNN
+F 4 "LTST-C155GYKT" H 10550 3750 50  0001 C CNN "mpn"
+	1    10550 3750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10850 3850 10850 4150
+$Comp
+L Device:LED_Dual_AACC D503
+U 1 1 5AB0130B
+P 10550 4250
+AR Path="/5A78E64E/5AB0130B" Ref="D503"  Part="1" 
+AR Path="/5A78E661/5AB0130B" Ref="D703"  Part="1" 
+F 0 "D703" H 10550 4500 50  0000 C CNN
+F 1 "LTST-C155GYKT" H 10550 4584 50  0001 C CNN
+F 2 "LED_SMD:LED_RGB_1210" H 10550 4250 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-98-0007/LTST-C155GYKT.pdf" H 10550 4250 50  0001 C CNN
+F 4 "LTST-C155GYKT" H 10550 4250 50  0001 C CNN "mpn"
+	1    10550 4250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10850 4350 10850 4500
+$Comp
+L CommsCard:LightPipe LP501
+U 1 1 5AB0BDC0
+P 10450 2900
+AR Path="/5A78E64E/5AB0BDC0" Ref="LP501"  Part="1" 
+AR Path="/5A78E661/5AB0BDC0" Ref="LP701"  Part="1" 
+F 0 "LP701" V 10403 3080 50  0000 L CNN
+F 1 "LightPipe" V 10494 3080 50  0000 L CNN
+F 2 "LEDs:LightPipe DiaLight 515-1064" H 10462 2900 50  0001 C CNN
+F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/515-1064.pdf" H 10462 2900 50  0001 C CNN
+F 4 "5151064F" H 10450 2900 50  0001 C CNN "mpn"
+	1    10450 2900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
